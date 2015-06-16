@@ -1,0 +1,1234 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		045B1300E297469F6FAD4ECA /* FormSwep.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40337486771F68A46E75EEB8 /* FormSwep.cpp */; };
+		0463EE4EF37CE3A0B8352A02 /* Whistle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57AD15040601CB53C24FE056 /* Whistle.cpp */; };
+		047C27ECC3076BDFFE6307E1 /* Modal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B03D02AFE382496B83CC59C /* Modal.cpp */; };
+		07F3FBF7231518F13C67F3A1 /* Drummer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1525CE50A81600A249E5C5AF /* Drummer.cpp */; };
+		0885D0622F4CC64481989755 /* FileWvOut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84250C1D834F6226533369A7 /* FileWvOut.cpp */; };
+		0AF5A6DD4FEBDAA99120C770 /* ofxBaseGui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21338A6C04CD884E2D42D277 /* ofxBaseGui.cpp */; };
+		0B027E95DD8717F7BCFB48F4 /* JCRev.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF795E3B255B734F94892158 /* JCRev.cpp */; };
+		0C14A6C0DED2BCC3643BD79A /* NRev.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37695C81FCA7C14A8ACBFD6A /* NRev.cpp */; };
+		0DF6FBDAE58ACFAF268374B7 /* ofxGuiGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA1A5A44F57A8697F4350C2A /* ofxGuiGroup.cpp */; };
+		0ECEF3ACC2803A59D9020003 /* ofxSlider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BEF0C769A12377F5A08697C /* ofxSlider.cpp */; };
+		1078E1618CC60C7A18689976 /* ofxButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9DCB2108A7137B86962F363 /* ofxButton.cpp */; };
+		152637DE0CF6B3F760907D54 /* Chorus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E223B2CA49A657C54AEEEFDF /* Chorus.cpp */; };
+		16CCC22F0EC54481D09224E8 /* Bowed.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CDC1A4DDCC695CE44E4D902 /* Bowed.cpp */; };
+		187B4718303FE1439EAA4FFD /* StifKarp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 34B0758F0EEEBB6688D88DD8 /* StifKarp.cpp */; };
+		1AE535B7A497FF7919D5FF90 /* Guitar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05F6E60F9C167A7757079431 /* Guitar.cpp */; };
+		1CD9ED49AC61AE50205DF891 /* TapDelay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E87E5E1EAA37D81799F10A8 /* TapDelay.cpp */; };
+		1F00073311F60D2BD697AA20 /* ofxPanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75A83DB93D67E59DC5E3E418 /* ofxPanel.cpp */; };
+		207D20FC34E37562E218354F /* Moog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E2387C90158DE77AD1C27B1 /* Moog.cpp */; };
+		2343A85D8657F8E3B65F8967 /* FileWrite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2320EAAEBDEEC02DE6C4AA62 /* FileWrite.cpp */; };
+		235AB83A7DD9F79D85767BD0 /* MidiFileIn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 603F2CEEA1517C3DF68DB8EA /* MidiFileIn.cpp */; };
+		27CBA7DB5B0C2B0DAD671039 /* Messager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 041D3B6BE3F804CC7ED3373C /* Messager.cpp */; };
+		296D0FA6451607F04992EEE4 /* Sitar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 301928B39844C51B94E51D90 /* Sitar.cpp */; };
+		29B99AC703D16A85698E31B9 /* Blit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D7B9B342DA3D81C6F9D40C /* Blit.cpp */; };
+		2F44C85E25A9628758470F14 /* FileLoop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC26C0B29C556A5A8FB5C2DE /* FileLoop.cpp */; };
+		2F79EB98F746623743E2432C /* ofxToggle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FC63A2A9606875F26499ED4 /* ofxToggle.cpp */; };
+		366E77B7638A136742221C63 /* FileWvIn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FEAEC075D4A59FC8A0E78B7 /* FileWvIn.cpp */; };
+		36907D5E4A70A7FB217D9BFD /* LentPitShift.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 567B3CF3D025EDED6622EEFC /* LentPitShift.cpp */; };
+		3921570C9D14656B13459DFD /* FileRead.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B91F58E1A2B4F0B08D9B31B /* FileRead.cpp */; };
+		39D5BC55346A402DE74E08B5 /* Asymp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0869194E2672E7508A67571 /* Asymp.cpp */; };
+		3E5C36CAF0745E02144048D4 /* HevyMetl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C45F8DDA563ADBA9ACA0744 /* HevyMetl.cpp */; };
+		488FD4619A3B26E5E2C54053 /* Voicer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7ED75EEAB28FBB250076A42A /* Voicer.cpp */; };
+		48D7607FFA3D4DD376B4EC5A /* ModalBar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 821874EAB4E898478096FA99 /* ModalBar.cpp */; };
+		56C133963A95DBA0E4D05E39 /* DrawSynth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A864476812F291D75DB40674 /* DrawSynth.cpp */; };
+		5708827A0D31387065D04D8C /* DelayL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 767084EC9FF9071313365154 /* DelayL.cpp */; };
+		5A6F86FFEB7361D8DDB12BAE /* Twang.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0097E606BA4560C5E2D152C /* Twang.cpp */; };
+		5E8F3AEF33ACF46C237D51A2 /* BeeThree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF016FDD79F86E7A1AAE7586 /* BeeThree.cpp */; };
+		6474CBF619BCE019003C94E2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6474CBF019BCE00B003C94E2 /* AVFoundation.framework */; };
+		6474CBF719BCE019003C94E2 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6474CBF119BCE00B003C94E2 /* CoreMedia.framework */; };
+		6474CBF819BCE019003C94E2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6474CBF219BCE00B003C94E2 /* QuartzCore.framework */; };
+		679577B5B81A08BE28DE40B0 /* OneZero.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D46D91DBCA218A1B657EDC02 /* OneZero.cpp */; };
+		6ADE19193E063B9E7AEED65B /* BandedWG.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2341C549F48987E9FB3A353D /* BandedWG.cpp */; };
+		716AC77E15087CAEA8A397A8 /* Iir.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE7908B8D6770AA573D1949D /* Iir.cpp */; };
+		76018AC3170CFBCC83303514 /* ofxSliderGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EE9CAF64503E5DE5229064B /* ofxSliderGroup.cpp */; };
+		78B141A5D773C190CCD5357B /* PitShift.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43EB6BF7DFBF34D2A37FFF94 /* PitShift.cpp */; };
+		7AFFD3F973B65DAE9F29FDC6 /* Clarinet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12DE76EACE9C3734727018AE /* Clarinet.cpp */; };
+		7C6E4F7BF147C63630BBD3EE /* SineWave.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C731E1E842546F06EAD3788E /* SineWave.cpp */; };
+		7CC0DBEFAB3C5174BF125A9C /* ofxAssimpModelLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE62BD5E06E54D0A2C0BAF37 /* ofxAssimpModelLoader.cpp */; };
+		87AB789415F525439E439740 /* Phonemes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57D54186F5A0D43CE9349227 /* Phonemes.cpp */; };
+		882789244103386789A94F0E /* FM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 70FA5EE739C124E3469316FE /* FM.cpp */; };
+		8A8728DD83191F5A432F1B9D /* PRCRev.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A92EF7C9CFEECB3D1A61545 /* PRCRev.cpp */; };
+		8D6A759584870D3ADBFDFC4E /* Mandolin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7890D2E2837A1D488AA52789 /* Mandolin.cpp */; };
+		8E249818B5ABFEB16C47820C /* Brass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4362AFCCC0872D677ABA1BB /* Brass.cpp */; };
+		92AE1D84142B231C572CC448 /* ofxAssimpMeshHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 432F078777DA577F0F9A5368 /* ofxAssimpMeshHelper.cpp */; };
+		9733BEFD6266252BC7436E30 /* ADSR.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9804CC91B62E43E8DBB946D7 /* ADSR.cpp */; };
+		9BCCE4E9852814A7F648DC2A /* ofxAssimpAnimation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 221C66CCA102B0971FDFA667 /* ofxAssimpAnimation.cpp */; };
+		9FC8981216E6467EEDF668B1 /* Simple.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10E52605E660C4D51A417B12 /* Simple.cpp */; };
+		A3E107527119E5C7E92346DA /* BiQuad.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41E69DE405BD28D25901CFCE /* BiQuad.cpp */; };
+		B0158A9549DF316B362D9075 /* FMVoices.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18701B9E9583F91212FC48A7 /* FMVoices.cpp */; };
+		B3E08FE10EBFD11442ACCFEE /* Shakers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37450122D224B8E28F8A7962 /* Shakers.cpp */; };
+		B581EF9D854D4D616628DF15 /* Sampler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE4528C890D30CF29F240C1A /* Sampler.cpp */; };
+		B804829722E441494703C0B7 /* FreeVerb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9598C93F0077E2BC475569B /* FreeVerb.cpp */; };
+		B9EC6B241584CC1A4CC8CD82 /* ofxAssimpTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5549454B3E55B6134D8E566F /* ofxAssimpTexture.cpp */; };
+		BBAB23CB13894F3D00AA2426 /* GLUT.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BBAB23BE13894E4700AA2426 /* GLUT.framework */; };
+		BD572309EAD178884C3560CF /* BlowBotl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31C6B019D7B505654471DA09 /* BlowBotl.cpp */; };
+		BF5F963E1019467C23147ADE /* PoleZero.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 111B13FFA03C14E7B406C978 /* PoleZero.cpp */; };
+		C1D33555E1F09713337366E2 /* ofxLabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D214028C2B61E5D2FEF8E270 /* ofxLabel.cpp */; };
+		C732E0FA8ED721DEE7859D87 /* Plucked.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 35FCF03FF04B43989EF8653E /* Plucked.cpp */; };
+		C98661BDFB09B0C916EBEB54 /* Wurley.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B79A31C2C61A8BFDD9F33226 /* Wurley.cpp */; };
+		CB11553D00A72BAE7F981045 /* Stk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7F78371E7915F072CC4E4E3 /* Stk.cpp */; };
+		CB6057A8E1326C7821538711 /* SingWave.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5DBA87517FAF5321866BC3A /* SingWave.cpp */; };
+		D2028E6EC7FB44F4DDA2E816 /* BlitSaw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A06D76B30E9A04B063745B03 /* BlitSaw.cpp */; };
+		D5F328170F6BDAB059167587 /* Granulate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 480FBEFEC9E5A6ADEDB8D69E /* Granulate.cpp */; };
+		DA82806DFC83CCF6690AB7DC /* TubeBell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5C5970C5892F886EA517B7A /* TubeBell.cpp */; };
+		DD44FB2322FE1E1B7213D415 /* OnePole.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00F175C36C2C05BAAA92D72E /* OnePole.cpp */; };
+		DF7CEC5AD1C58108C054CB53 /* Skini.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2ACE9262F7B95E92972E9C64 /* Skini.cpp */; };
+		E0107081A76FC5694E9D44CA /* Modulate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3898032239F619BA4141D34 /* Modulate.cpp */; };
+		E31151122365BE1645BE5693 /* Sphere.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 380DBE86C1C4D623DED5E452 /* Sphere.cpp */; };
+		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
+		E45BE97B0E8CC7DD009D7055 /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9710E8CC7DD009D7055 /* AGL.framework */; };
+		E45BE97C0E8CC7DD009D7055 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9720E8CC7DD009D7055 /* ApplicationServices.framework */; };
+		E45BE97D0E8CC7DD009D7055 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9730E8CC7DD009D7055 /* AudioToolbox.framework */; };
+		E45BE97F0E8CC7DD009D7055 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9750E8CC7DD009D7055 /* CoreAudio.framework */; };
+		E45BE9800E8CC7DD009D7055 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9760E8CC7DD009D7055 /* CoreFoundation.framework */; };
+		E45BE9810E8CC7DD009D7055 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9770E8CC7DD009D7055 /* CoreServices.framework */; };
+		E45BE9830E8CC7DD009D7055 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9790E8CC7DD009D7055 /* OpenGL.framework */; };
+		E45BE9840E8CC7DD009D7055 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE97A0E8CC7DD009D7055 /* QuickTime.framework */; };
+		E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */; };
+		E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */; };
+		E4C2424710CC5A17004149E2 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C2424410CC5A17004149E2 /* AppKit.framework */; };
+		E4C2424810CC5A17004149E2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C2424510CC5A17004149E2 /* Cocoa.framework */; };
+		E4C2424910CC5A17004149E2 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C2424610CC5A17004149E2 /* IOKit.framework */; };
+		E4EB6799138ADC1D00A09F29 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBAB23BE13894E4700AA2426 /* GLUT.framework */; };
+		E67CA9559F44FFEC33A3EF05 /* Flute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECF9A68922304692C573D4CE /* Flute.cpp */; };
+		E7E077E515D3B63C0020DFD4 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E077E415D3B63C0020DFD4 /* CoreVideo.framework */; };
+		E7E077E815D3B6510020DFD4 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E077E715D3B6510020DFD4 /* QTKit.framework */; };
+		E7F985F815E0DEA3003869B5 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7F985F515E0DE99003869B5 /* Accelerate.framework */; };
+		E851887AE2767A083E324985 /* VoicForm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4FE43B874FA382598CBCAFA /* VoicForm.cpp */; };
+		EC456A70F5EC2ECADAB6DF97 /* Fir.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BEE689D050A69D5A018460A /* Fir.cpp */; };
+		ECD1A0D5B9DABD5D0A79782E /* Noise.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 817B0AE13E2DB4E47168CFA0 /* Noise.cpp */; };
+		EF615366F5B27C6D860D4C6B /* DelayA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B7ED272A4F9AB2E598DAA93 /* DelayA.cpp */; };
+		F0AAF9547D71860974D8CB5F /* Mesh2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E27ACFC045890E624F973BC /* Mesh2D.cpp */; };
+		F0CFCD4C3260FF08076B7DB5 /* TwoPole.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BB6D83DFD5906FFF221054A /* TwoPole.cpp */; };
+		F1194A181AD93A78DE0B70C5 /* BlitSquare.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A363BE855716139D8FDD0BA4 /* BlitSquare.cpp */; };
+		F1A9F2A399FB7DBB166B28F5 /* Envelope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88A80B59C70137CFAADB02EE /* Envelope.cpp */; };
+		F3A2AAB47697630C01CB9482 /* BlowHole.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE9B2CEEDE9F3026877833AF /* BlowHole.cpp */; };
+		F449FC158CD850415B9ECE56 /* Delay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 161918BB512D268AA7D653B2 /* Delay.cpp */; };
+		F4B84B110BE641E3AE0C6969 /* Echo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C2EBC9ACF0382859A207C70 /* Echo.cpp */; };
+		F527551A17C139C3E7BCC15F /* Rhodey.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D3E136A768029A14129A99A /* Rhodey.cpp */; };
+		F82A4B9CF625C4818DCEC68A /* TwoZero.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48296838FA94FF3332746D6A /* TwoZero.cpp */; };
+		FB91246B066BD56262B6A703 /* PercFlut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F507AC83915265925E9FBB50 /* PercFlut.cpp */; };
+		FE2CD3D91620C768097CE56D /* Saxofony.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A328FDE8378C473AFA02CAF5 /* Saxofony.cpp */; };
+		FE537F6D1A35C811E802D738 /* Resonate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0DC5C7C22E06D29B0FAFFA /* Resonate.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4328147138ABC890047C5CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4B27C1510CBEB8E00536013;
+			remoteInfo = openFrameworks;
+		};
+		E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E4B27C1410CBEB8E00536013;
+			remoteInfo = openFrameworks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E4C2427710CC5ABF004149E2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BBAB23CB13894F3D00AA2426 /* GLUT.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		00F175C36C2C05BAAA92D72E /* OnePole.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = OnePole.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/OnePole.cpp; sourceTree = SOURCE_ROOT; };
+		036E31D81D4F84E9BB2F06E5 /* TwoPole.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = TwoPole.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/TwoPole.h; sourceTree = SOURCE_ROOT; };
+		041D3B6BE3F804CC7ED3373C /* Messager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Messager.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/Messager.cpp; sourceTree = SOURCE_ROOT; };
+		05DB9AA83B31EE49B9954C9C /* Resonate.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Resonate.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/Resonate.h; sourceTree = SOURCE_ROOT; };
+		05DD5BFF5E78134F7B6B79B5 /* Mesh2D.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Mesh2D.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/Mesh2D.h; sourceTree = SOURCE_ROOT; };
+		05F6E60F9C167A7757079431 /* Guitar.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Guitar.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/Guitar.cpp; sourceTree = SOURCE_ROOT; };
+		068960F72108EE695E49FB78 /* SingWave.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SingWave.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/SingWave.h; sourceTree = SOURCE_ROOT; };
+		0969E5338CDA7F46FB64A8E5 /* LogStream.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = LogStream.h; path = ../../../openFrameworks/addons/ofxAssimpModelLoader/libs/assimp/include/LogStream.h; sourceTree = SOURCE_ROOT; };
+		09D9453B39064892FCD81328 /* Twang.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Twang.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/Twang.h; sourceTree = SOURCE_ROOT; };
+		0AE01CB9DA53BBBA6A73782B /* Filter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Filter.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/Filter.h; sourceTree = SOURCE_ROOT; };
+		0B027A12F9F9CEACCF861C3E /* Generator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Generator.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/Generator.h; sourceTree = SOURCE_ROOT; };
+		0BB7F5B79F4FB0714D77CDCD /* OnePole.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = OnePole.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/OnePole.h; sourceTree = SOURCE_ROOT; };
+		0BEE689D050A69D5A018460A /* Fir.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Fir.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/Fir.cpp; sourceTree = SOURCE_ROOT; };
+		0BEF0C769A12377F5A08697C /* ofxSlider.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxSlider.cpp; path = ../../../openFrameworks/addons/ofxGui/src/ofxSlider.cpp; sourceTree = SOURCE_ROOT; };
+		0CBA388EB837548FEE0628EF /* Drummer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Drummer.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/Drummer.h; sourceTree = SOURCE_ROOT; };
+		0DEE03BCAB7F1D79CBFBBF3E /* Clarinet.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Clarinet.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/Clarinet.h; sourceTree = SOURCE_ROOT; };
+		1097784E22D324E48AFCE62A /* ofxBaseGui.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxBaseGui.h; path = ../../../openFrameworks/addons/ofxGui/src/ofxBaseGui.h; sourceTree = SOURCE_ROOT; };
+		10E52605E660C4D51A417B12 /* Simple.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Simple.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/Simple.cpp; sourceTree = SOURCE_ROOT; };
+		111B13FFA03C14E7B406C978 /* PoleZero.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = PoleZero.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/PoleZero.cpp; sourceTree = SOURCE_ROOT; };
+		1126ED0A190F972F76FDB9D3 /* SineWave.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SineWave.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/SineWave.h; sourceTree = SOURCE_ROOT; };
+		12DE76EACE9C3734727018AE /* Clarinet.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Clarinet.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/Clarinet.cpp; sourceTree = SOURCE_ROOT; };
+		1525CE50A81600A249E5C5AF /* Drummer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Drummer.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/Drummer.cpp; sourceTree = SOURCE_ROOT; };
+		161918BB512D268AA7D653B2 /* Delay.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Delay.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/Delay.cpp; sourceTree = SOURCE_ROOT; };
+		183FE90079FBB3DEC2D75EA4 /* poppack1.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = poppack1.h; path = ../../../openFrameworks/addons/ofxAssimpModelLoader/libs/assimp/include/Compiler/poppack1.h; sourceTree = SOURCE_ROOT; };
+		18701B9E9583F91212FC48A7 /* FMVoices.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = FMVoices.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/FMVoices.cpp; sourceTree = SOURCE_ROOT; };
+		198E00F6F4E6F125EC85D571 /* BlowHole.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = BlowHole.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/BlowHole.h; sourceTree = SOURCE_ROOT; };
+		1ADB882C28BB05666DD7C7B1 /* Whistle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Whistle.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/Whistle.h; sourceTree = SOURCE_ROOT; };
+		1B134033C81D6BBC979E0195 /* Wurley.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Wurley.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/Wurley.h; sourceTree = SOURCE_ROOT; };
+		1B81F73F82201BE3A4A26DE6 /* Saxofony.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Saxofony.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/Saxofony.h; sourceTree = SOURCE_ROOT; };
+		1C2EBC9ACF0382859A207C70 /* Echo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Echo.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/Echo.cpp; sourceTree = SOURCE_ROOT; };
+		1CDC1A4DDCC695CE44E4D902 /* Bowed.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Bowed.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/Bowed.cpp; sourceTree = SOURCE_ROOT; };
+		1D90AC778AF9FE3D1F0310E2 /* aiTypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = aiTypes.h; path = ../../../openFrameworks/addons/ofxAssimpModelLoader/libs/assimp/include/aiTypes.h; sourceTree = SOURCE_ROOT; };
+		1DC160D77C9E9131A2D0474E /* BandedWG.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = BandedWG.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/BandedWG.h; sourceTree = SOURCE_ROOT; };
+		1E6224DDD57C5BBC67A3D596 /* ofxToggle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxToggle.h; path = ../../../openFrameworks/addons/ofxGui/src/ofxToggle.h; sourceTree = SOURCE_ROOT; };
+		21338A6C04CD884E2D42D277 /* ofxBaseGui.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxBaseGui.cpp; path = ../../../openFrameworks/addons/ofxGui/src/ofxBaseGui.cpp; sourceTree = SOURCE_ROOT; };
+		221C66CCA102B0971FDFA667 /* ofxAssimpAnimation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxAssimpAnimation.cpp; path = ../../../openFrameworks/addons/ofxAssimpModelLoader/src/ofxAssimpAnimation.cpp; sourceTree = SOURCE_ROOT; };
+		22411F331B8C03014CA35550 /* ofxButton.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxButton.h; path = ../../../openFrameworks/addons/ofxGui/src/ofxButton.h; sourceTree = SOURCE_ROOT; };
+		225AE2090DA61B9F100B1850 /* Echo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Echo.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/Echo.h; sourceTree = SOURCE_ROOT; };
+		22FF5AF9DCD9C1CBE1E3B2EA /* Function.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Function.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/Function.h; sourceTree = SOURCE_ROOT; };
+		2320EAAEBDEEC02DE6C4AA62 /* FileWrite.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = FileWrite.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/FileWrite.cpp; sourceTree = SOURCE_ROOT; };
+		2341C549F48987E9FB3A353D /* BandedWG.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = BandedWG.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/BandedWG.cpp; sourceTree = SOURCE_ROOT; };
+		26FF1764AF62B930499B7723 /* NRev.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = NRev.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/NRev.h; sourceTree = SOURCE_ROOT; };
+		281162459287517AC4D4CEBF /* aiScene.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = aiScene.h; path = ../../../openFrameworks/addons/ofxAssimpModelLoader/libs/assimp/include/aiScene.h; sourceTree = SOURCE_ROOT; };
+		2A3E7E6455B215D8A98DDC85 /* FreeVerb.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = FreeVerb.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/FreeVerb.h; sourceTree = SOURCE_ROOT; };
+		2A92EF7C9CFEECB3D1A61545 /* PRCRev.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = PRCRev.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/PRCRev.cpp; sourceTree = SOURCE_ROOT; };
+		2ACE9262F7B95E92972E9C64 /* Skini.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Skini.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/Skini.cpp; sourceTree = SOURCE_ROOT; };
+		2D3D85D85F3A4B7B03D2F7ED /* ofxSliderGroup.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxSliderGroup.h; path = ../../../openFrameworks/addons/ofxGui/src/ofxSliderGroup.h; sourceTree = SOURCE_ROOT; };
+		2D74C268E4C756F0C1B47366 /* ModalBar.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ModalBar.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/ModalBar.h; sourceTree = SOURCE_ROOT; };
+		2E2387C90158DE77AD1C27B1 /* Moog.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Moog.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/Moog.cpp; sourceTree = SOURCE_ROOT; };
+		2FC63A2A9606875F26499ED4 /* ofxToggle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxToggle.cpp; path = ../../../openFrameworks/addons/ofxGui/src/ofxToggle.cpp; sourceTree = SOURCE_ROOT; };
+		301928B39844C51B94E51D90 /* Sitar.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Sitar.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/Sitar.cpp; sourceTree = SOURCE_ROOT; };
+		31C6B019D7B505654471DA09 /* BlowBotl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = BlowBotl.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/BlowBotl.cpp; sourceTree = SOURCE_ROOT; };
+		34B0758F0EEEBB6688D88DD8 /* StifKarp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = StifKarp.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/StifKarp.cpp; sourceTree = SOURCE_ROOT; };
+		35FCF03FF04B43989EF8653E /* Plucked.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Plucked.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/Plucked.cpp; sourceTree = SOURCE_ROOT; };
+		37450122D224B8E28F8A7962 /* Shakers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Shakers.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/Shakers.cpp; sourceTree = SOURCE_ROOT; };
+		37695C81FCA7C14A8ACBFD6A /* NRev.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = NRev.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/NRev.cpp; sourceTree = SOURCE_ROOT; };
+		3783B0AC09A78528D6F2922E /* DefaultLogger.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = DefaultLogger.h; path = ../../../openFrameworks/addons/ofxAssimpModelLoader/libs/assimp/include/DefaultLogger.h; sourceTree = SOURCE_ROOT; };
+		380DBE86C1C4D623DED5E452 /* Sphere.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Sphere.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/Sphere.cpp; sourceTree = SOURCE_ROOT; };
+		3AA776F88F4667C245DD6606 /* Stk.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Stk.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/Stk.h; sourceTree = SOURCE_ROOT; };
+		3FEAEC075D4A59FC8A0E78B7 /* FileWvIn.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = FileWvIn.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/FileWvIn.cpp; sourceTree = SOURCE_ROOT; };
+		40337486771F68A46E75EEB8 /* FormSwep.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = FormSwep.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/FormSwep.cpp; sourceTree = SOURCE_ROOT; };
+		41E69DE405BD28D25901CFCE /* BiQuad.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = BiQuad.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/BiQuad.cpp; sourceTree = SOURCE_ROOT; };
+		4294F29721E39F963D88B980 /* aiAssert.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = aiAssert.h; path = ../../../openFrameworks/addons/ofxAssimpModelLoader/libs/assimp/include/aiAssert.h; sourceTree = SOURCE_ROOT; };
+		42B4F1AA929F56F1DDB09B34 /* Moog.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Moog.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/Moog.h; sourceTree = SOURCE_ROOT; };
+		432F078777DA577F0F9A5368 /* ofxAssimpMeshHelper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxAssimpMeshHelper.cpp; path = ../../../openFrameworks/addons/ofxAssimpModelLoader/src/ofxAssimpMeshHelper.cpp; sourceTree = SOURCE_ROOT; };
+		43692E74CEB9D352DEEE5A27 /* PRCRev.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = PRCRev.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/PRCRev.h; sourceTree = SOURCE_ROOT; };
+		43EB6BF7DFBF34D2A37FFF94 /* PitShift.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = PitShift.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/PitShift.cpp; sourceTree = SOURCE_ROOT; };
+		4532EA90CD24AA29C2EA8DE4 /* ofxAssimpUtils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxAssimpUtils.h; path = ../../../openFrameworks/addons/ofxAssimpModelLoader/src/ofxAssimpUtils.h; sourceTree = SOURCE_ROOT; };
+		46E887C1BB165671320C490B /* BeeThree.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = BeeThree.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/BeeThree.h; sourceTree = SOURCE_ROOT; };
+		480FBEFEC9E5A6ADEDB8D69E /* Granulate.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Granulate.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/Granulate.cpp; sourceTree = SOURCE_ROOT; };
+		48296838FA94FF3332746D6A /* TwoZero.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = TwoZero.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/TwoZero.cpp; sourceTree = SOURCE_ROOT; };
+		4AA4779638C63A97745BC787 /* aiMaterial.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = aiMaterial.h; path = ../../../openFrameworks/addons/ofxAssimpModelLoader/libs/assimp/include/aiMaterial.h; sourceTree = SOURCE_ROOT; };
+		4D27AED8674417DDD3A3C8E4 /* BlitSaw.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = BlitSaw.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/BlitSaw.h; sourceTree = SOURCE_ROOT; };
+		4DBB42D2ABC2F48312B93DD8 /* Fir.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Fir.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/Fir.h; sourceTree = SOURCE_ROOT; };
+		4E27ACFC045890E624F973BC /* Mesh2D.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Mesh2D.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/Mesh2D.cpp; sourceTree = SOURCE_ROOT; };
+		507188A73DD6B3DB2E2AE0CD /* Phonemes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Phonemes.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/Phonemes.h; sourceTree = SOURCE_ROOT; };
+		507984EA706360683BA277AE /* Noise.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Noise.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/Noise.h; sourceTree = SOURCE_ROOT; };
+		50E258A32DA2FF7B1BD3D20B /* TapDelay.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = TapDelay.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/TapDelay.h; sourceTree = SOURCE_ROOT; };
+		5549454B3E55B6134D8E566F /* ofxAssimpTexture.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxAssimpTexture.cpp; path = ../../../openFrameworks/addons/ofxAssimpModelLoader/src/ofxAssimpTexture.cpp; sourceTree = SOURCE_ROOT; };
+		55B71CEE2589CDDD6E49C168 /* aiPostProcess.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = aiPostProcess.h; path = ../../../openFrameworks/addons/ofxAssimpModelLoader/libs/assimp/include/aiPostProcess.h; sourceTree = SOURCE_ROOT; };
+		567B3CF3D025EDED6622EEFC /* LentPitShift.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = LentPitShift.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/LentPitShift.cpp; sourceTree = SOURCE_ROOT; };
+		575CACE277AF6D3A5C3002C5 /* FMVoices.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = FMVoices.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/FMVoices.h; sourceTree = SOURCE_ROOT; };
+		57935B77A356FAD50B1087D4 /* Skini.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Skini.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/Skini.h; sourceTree = SOURCE_ROOT; };
+		57AD15040601CB53C24FE056 /* Whistle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Whistle.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/Whistle.cpp; sourceTree = SOURCE_ROOT; };
+		57D54186F5A0D43CE9349227 /* Phonemes.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Phonemes.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/Phonemes.cpp; sourceTree = SOURCE_ROOT; };
+		5A910C26908014C78CF64AF9 /* aiColor4D.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = aiColor4D.h; path = ../../../openFrameworks/addons/ofxAssimpModelLoader/libs/assimp/include/aiColor4D.h; sourceTree = SOURCE_ROOT; };
+		5BB6D83DFD5906FFF221054A /* TwoPole.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = TwoPole.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/TwoPole.cpp; sourceTree = SOURCE_ROOT; };
+		5D0A944F1DA4534565224EA1 /* TubeBell.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = TubeBell.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/TubeBell.h; sourceTree = SOURCE_ROOT; };
+		5E8F9B191873126A8DFBD583 /* ofxGuiGroup.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxGuiGroup.h; path = ../../../openFrameworks/addons/ofxGui/src/ofxGuiGroup.h; sourceTree = SOURCE_ROOT; };
+		5EE9CAF64503E5DE5229064B /* ofxSliderGroup.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxSliderGroup.cpp; path = ../../../openFrameworks/addons/ofxGui/src/ofxSliderGroup.cpp; sourceTree = SOURCE_ROOT; };
+		5FCA37803039226ACC918CD2 /* FileWvOut.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = FileWvOut.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/FileWvOut.h; sourceTree = SOURCE_ROOT; };
+		601979D69F2DEA21EE617BB8 /* assimp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = assimp.hpp; path = ../../../openFrameworks/addons/ofxAssimpModelLoader/libs/assimp/include/assimp.hpp; sourceTree = SOURCE_ROOT; };
+		603F2CEEA1517C3DF68DB8EA /* MidiFileIn.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = MidiFileIn.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/MidiFileIn.cpp; sourceTree = SOURCE_ROOT; };
+		6319112FC5A93208746B4369 /* Vector3D.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Vector3D.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/Vector3D.h; sourceTree = SOURCE_ROOT; };
+		6474CBF019BCE00B003C94E2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6474CBF119BCE00B003C94E2 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		6474CBF219BCE00B003C94E2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		68C226F9176E2D6142028E91 /* TwoZero.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = TwoZero.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/TwoZero.h; sourceTree = SOURCE_ROOT; };
+		68E638A0FE56C352A24D0B7C /* Asymp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Asymp.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/Asymp.h; sourceTree = SOURCE_ROOT; };
+		6DA518F44A6A150DF6DA9D6B /* ADSR.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ADSR.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/ADSR.h; sourceTree = SOURCE_ROOT; };
+		6F0DC5C7C22E06D29B0FAFFA /* Resonate.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Resonate.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/Resonate.cpp; sourceTree = SOURCE_ROOT; };
+		70FA5EE739C124E3469316FE /* FM.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = FM.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/FM.cpp; sourceTree = SOURCE_ROOT; };
+		71F9CE517D121D1D652A2885 /* ofxStk.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxStk.h; path = ../../../openFrameworks/addons/ofxStk/src/ofxStk.h; sourceTree = SOURCE_ROOT; };
+		72E73A6B9535C79410533E75 /* aiTexture.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = aiTexture.h; path = ../../../openFrameworks/addons/ofxAssimpModelLoader/libs/assimp/include/aiTexture.h; sourceTree = SOURCE_ROOT; };
+		74491B970D603D424CB70C55 /* IOStream.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = IOStream.h; path = ../../../openFrameworks/addons/ofxAssimpModelLoader/libs/assimp/include/IOStream.h; sourceTree = SOURCE_ROOT; };
+		75415E89439C91B1AB425D28 /* aiMatrix3x3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = aiMatrix3x3.h; path = ../../../openFrameworks/addons/ofxAssimpModelLoader/libs/assimp/include/aiMatrix3x3.h; sourceTree = SOURCE_ROOT; };
+		7552791A01DF5F64E1F442C5 /* Bowed.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Bowed.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/Bowed.h; sourceTree = SOURCE_ROOT; };
+		75A83DB93D67E59DC5E3E418 /* ofxPanel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxPanel.cpp; path = ../../../openFrameworks/addons/ofxGui/src/ofxPanel.cpp; sourceTree = SOURCE_ROOT; };
+		75C7D9BD703BA2E7019665B5 /* FileRead.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = FileRead.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/FileRead.h; sourceTree = SOURCE_ROOT; };
+		767084EC9FF9071313365154 /* DelayL.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = DelayL.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/DelayL.cpp; sourceTree = SOURCE_ROOT; };
+		77F673FA9EB57191B56CB06F /* PitShift.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = PitShift.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/PitShift.h; sourceTree = SOURCE_ROOT; };
+		780DE6DADE135A17D4E0C05C /* aiCamera.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = aiCamera.h; path = ../../../openFrameworks/addons/ofxAssimpModelLoader/libs/assimp/include/aiCamera.h; sourceTree = SOURCE_ROOT; };
+		7890D2E2837A1D488AA52789 /* Mandolin.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Mandolin.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/Mandolin.cpp; sourceTree = SOURCE_ROOT; };
+		792DC8662461B3F3858032EF /* Chorus.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Chorus.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/Chorus.h; sourceTree = SOURCE_ROOT; };
+		7B7ED272A4F9AB2E598DAA93 /* DelayA.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = DelayA.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/DelayA.cpp; sourceTree = SOURCE_ROOT; };
+		7C45F8DDA563ADBA9ACA0744 /* HevyMetl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = HevyMetl.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/HevyMetl.cpp; sourceTree = SOURCE_ROOT; };
+		7D3115549BE25CAE176B0778 /* Voicer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Voicer.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/Voicer.h; sourceTree = SOURCE_ROOT; };
+		7D36F56F829A129235359CD4 /* Iir.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Iir.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/Iir.h; sourceTree = SOURCE_ROOT; };
+		7D3E136A768029A14129A99A /* Rhodey.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Rhodey.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/Rhodey.cpp; sourceTree = SOURCE_ROOT; };
+		7E87E5E1EAA37D81799F10A8 /* TapDelay.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = TapDelay.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/TapDelay.cpp; sourceTree = SOURCE_ROOT; };
+		7E9119DE77B63CBA2EA6E6BE /* Brass.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Brass.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/Brass.h; sourceTree = SOURCE_ROOT; };
+		7ED75EEAB28FBB250076A42A /* Voicer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Voicer.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/Voicer.cpp; sourceTree = SOURCE_ROOT; };
+		817B0AE13E2DB4E47168CFA0 /* Noise.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Noise.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/Noise.cpp; sourceTree = SOURCE_ROOT; };
+		821874EAB4E898478096FA99 /* ModalBar.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ModalBar.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/ModalBar.cpp; sourceTree = SOURCE_ROOT; };
+		82AAA9E186F85DE702B7B39E /* Blit.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Blit.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/Blit.h; sourceTree = SOURCE_ROOT; };
+		835FE4AB3E0E38176C368565 /* IOSystem.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = IOSystem.h; path = ../../../openFrameworks/addons/ofxAssimpModelLoader/libs/assimp/include/IOSystem.h; sourceTree = SOURCE_ROOT; };
+		84250C1D834F6226533369A7 /* FileWvOut.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = FileWvOut.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/FileWvOut.cpp; sourceTree = SOURCE_ROOT; };
+		84804B2F0D7723AA34736B0E /* assimp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = assimp.h; path = ../../../openFrameworks/addons/ofxAssimpModelLoader/libs/assimp/include/assimp.h; sourceTree = SOURCE_ROOT; };
+		86F9D2A26C2868582212281B /* ProgressHandler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ProgressHandler.h; path = ../../../openFrameworks/addons/ofxAssimpModelLoader/libs/assimp/include/ProgressHandler.h; sourceTree = SOURCE_ROOT; };
+		88A80B59C70137CFAADB02EE /* Envelope.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Envelope.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/Envelope.cpp; sourceTree = SOURCE_ROOT; };
+		8A32DF9736249A2B2681F1F2 /* FileWvIn.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = FileWvIn.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/FileWvIn.h; sourceTree = SOURCE_ROOT; };
+		8B03D02AFE382496B83CC59C /* Modal.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Modal.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/Modal.cpp; sourceTree = SOURCE_ROOT; };
+		8B91F58E1A2B4F0B08D9B31B /* FileRead.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = FileRead.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/FileRead.cpp; sourceTree = SOURCE_ROOT; };
+		8CD212C42C804F671B7CBA70 /* aiMatrix4x4.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = aiMatrix4x4.h; path = ../../../openFrameworks/addons/ofxAssimpModelLoader/libs/assimp/include/aiMatrix4x4.h; sourceTree = SOURCE_ROOT; };
+		8E566EEC3C64B1BB1A28D993 /* Delay.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Delay.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/Delay.h; sourceTree = SOURCE_ROOT; };
+		8F341AF59AA2C902F2BD586D /* aiQuaternion.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = aiQuaternion.h; path = ../../../openFrameworks/addons/ofxAssimpModelLoader/libs/assimp/include/aiQuaternion.h; sourceTree = SOURCE_ROOT; };
+		97CFF6774193A6C82B674EF1 /* ofxAssimpTexture.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxAssimpTexture.h; path = ../../../openFrameworks/addons/ofxAssimpModelLoader/src/ofxAssimpTexture.h; sourceTree = SOURCE_ROOT; };
+		9804CC91B62E43E8DBB946D7 /* ADSR.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ADSR.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/ADSR.cpp; sourceTree = SOURCE_ROOT; };
+		98851B51BC85F17F250CFD98 /* Sphere.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Sphere.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/Sphere.h; sourceTree = SOURCE_ROOT; };
+		99712C0C4488830674A79A1E /* BlitSquare.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = BlitSquare.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/BlitSquare.h; sourceTree = SOURCE_ROOT; };
+		99E7958FBE38DC7238109C37 /* Plucked.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Plucked.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/Plucked.h; sourceTree = SOURCE_ROOT; };
+		9A2094E89C796238C93983EF /* Guitar.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Guitar.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/Guitar.h; sourceTree = SOURCE_ROOT; };
+		9C6F0872EE3FF2FECC4BA04E /* aiVersion.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = aiVersion.h; path = ../../../openFrameworks/addons/ofxAssimpModelLoader/libs/assimp/include/aiVersion.h; sourceTree = SOURCE_ROOT; };
+		9E3871ABF3A8E4A585861FCA /* aiDefines.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = aiDefines.h; path = ../../../openFrameworks/addons/ofxAssimpModelLoader/libs/assimp/include/aiDefines.h; sourceTree = SOURCE_ROOT; };
+		9E510006C4625D472F8219CB /* NullLogger.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = NullLogger.h; path = ../../../openFrameworks/addons/ofxAssimpModelLoader/libs/assimp/include/NullLogger.h; sourceTree = SOURCE_ROOT; };
+		A06D76B30E9A04B063745B03 /* BlitSaw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = BlitSaw.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/BlitSaw.cpp; sourceTree = SOURCE_ROOT; };
+		A2F66410C1578AD3133A584A /* VoicForm.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = VoicForm.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/VoicForm.h; sourceTree = SOURCE_ROOT; };
+		A328FDE8378C473AFA02CAF5 /* Saxofony.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Saxofony.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/Saxofony.cpp; sourceTree = SOURCE_ROOT; };
+		A363BE855716139D8FDD0BA4 /* BlitSquare.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = BlitSquare.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/BlitSquare.cpp; sourceTree = SOURCE_ROOT; };
+		A3A5CA67916D595C37A0DC4D /* aiVector2D.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = aiVector2D.h; path = ../../../openFrameworks/addons/ofxAssimpModelLoader/libs/assimp/include/aiVector2D.h; sourceTree = SOURCE_ROOT; };
+		A4362AFCCC0872D677ABA1BB /* Brass.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Brass.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/Brass.cpp; sourceTree = SOURCE_ROOT; };
+		A7F78371E7915F072CC4E4E3 /* Stk.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Stk.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/Stk.cpp; sourceTree = SOURCE_ROOT; };
+		A864476812F291D75DB40674 /* DrawSynth.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = DrawSynth.cpp; path = src/DrawSynth.cpp; sourceTree = SOURCE_ROOT; };
+		ACA6FC47689E177F613EA6BF /* FormSwep.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = FormSwep.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/FormSwep.h; sourceTree = SOURCE_ROOT; };
+		ACB32633A8FF88180A21B3D4 /* aiConfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = aiConfig.h; path = ../../../openFrameworks/addons/ofxAssimpModelLoader/libs/assimp/include/aiConfig.h; sourceTree = SOURCE_ROOT; };
+		AE4D76E2F6ED2D855E994277 /* DelayA.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = DelayA.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/DelayA.h; sourceTree = SOURCE_ROOT; };
+		AE55D9E1934235BFEE8245B8 /* DelayL.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = DelayL.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/DelayL.h; sourceTree = SOURCE_ROOT; };
+		AEDBAB1295C01845D9D3141D /* OneZero.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = OneZero.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/OneZero.h; sourceTree = SOURCE_ROOT; };
+		B1D0B168A83093E13DCE8E20 /* Modulate.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Modulate.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/Modulate.h; sourceTree = SOURCE_ROOT; };
+		B1D7B9B342DA3D81C6F9D40C /* Blit.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Blit.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/Blit.cpp; sourceTree = SOURCE_ROOT; };
+		B79A31C2C61A8BFDD9F33226 /* Wurley.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Wurley.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/Wurley.cpp; sourceTree = SOURCE_ROOT; };
+		B90B4DE2B494007C61FD0F5E /* DrawSynth.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = DrawSynth.h; path = src/DrawSynth.h; sourceTree = SOURCE_ROOT; };
+		B9FEFA51949A604E2913DA55 /* PoleZero.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = PoleZero.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/PoleZero.h; sourceTree = SOURCE_ROOT; };
+		BB9AD38FBFEFC23A5F3EC5BE /* ReedTable.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ReedTable.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/ReedTable.h; sourceTree = SOURCE_ROOT; };
+		BBAB23BE13894E4700AA2426 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = ../../../openFrameworks/libs/glut/lib/osx/GLUT.framework; sourceTree = "<group>"; };
+		BD7375F303A4C680E233E38A /* LentPitShift.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = LentPitShift.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/LentPitShift.h; sourceTree = SOURCE_ROOT; };
+		BDE969CF50510349F26702B1 /* Sampler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Sampler.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/Sampler.h; sourceTree = SOURCE_ROOT; };
+		C1156EFA420541CA993A5C5A /* FM.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = FM.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/FM.h; sourceTree = SOURCE_ROOT; };
+		C1FA5331D25054AC18595DDE /* aiLight.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = aiLight.h; path = ../../../openFrameworks/addons/ofxAssimpModelLoader/libs/assimp/include/aiLight.h; sourceTree = SOURCE_ROOT; };
+		C4FCE68E5DFE232E4ADD367D /* aiMesh.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = aiMesh.h; path = ../../../openFrameworks/addons/ofxAssimpModelLoader/libs/assimp/include/aiMesh.h; sourceTree = SOURCE_ROOT; };
+		C4FE43B874FA382598CBCAFA /* VoicForm.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = VoicForm.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/VoicForm.cpp; sourceTree = SOURCE_ROOT; };
+		C731E1E842546F06EAD3788E /* SineWave.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = SineWave.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/SineWave.cpp; sourceTree = SOURCE_ROOT; };
+		C9598C93F0077E2BC475569B /* FreeVerb.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = FreeVerb.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/FreeVerb.cpp; sourceTree = SOURCE_ROOT; };
+		CA107D51ABA6F716E057A1B7 /* PercFlut.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = PercFlut.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/PercFlut.h; sourceTree = SOURCE_ROOT; };
+		CB9980AEA4CDBEC56001A48B /* Messager.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Messager.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/Messager.h; sourceTree = SOURCE_ROOT; };
+		CBB7569A28B335623E6AD635 /* HevyMetl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = HevyMetl.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/HevyMetl.h; sourceTree = SOURCE_ROOT; };
+		CE4528C890D30CF29F240C1A /* Sampler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Sampler.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/Sampler.cpp; sourceTree = SOURCE_ROOT; };
+		CE9DF246EAF0C3287D6C33A3 /* ofxAssimpModelLoader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxAssimpModelLoader.h; path = ../../../openFrameworks/addons/ofxAssimpModelLoader/src/ofxAssimpModelLoader.h; sourceTree = SOURCE_ROOT; };
+		CF1C38627CBEC2A50BF66937 /* pushpack1.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = pushpack1.h; path = ../../../openFrameworks/addons/ofxAssimpModelLoader/libs/assimp/include/Compiler/pushpack1.h; sourceTree = SOURCE_ROOT; };
+		D214028C2B61E5D2FEF8E270 /* ofxLabel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxLabel.cpp; path = ../../../openFrameworks/addons/ofxGui/src/ofxLabel.cpp; sourceTree = SOURCE_ROOT; };
+		D3ABE2A08A5918255127BAF3 /* aiAnim.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = aiAnim.h; path = ../../../openFrameworks/addons/ofxAssimpModelLoader/libs/assimp/include/aiAnim.h; sourceTree = SOURCE_ROOT; };
+		D46D91DBCA218A1B657EDC02 /* OneZero.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = OneZero.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/OneZero.cpp; sourceTree = SOURCE_ROOT; };
+		D53140F76C038F363903A997 /* ofxPanel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxPanel.h; path = ../../../openFrameworks/addons/ofxGui/src/ofxPanel.h; sourceTree = SOURCE_ROOT; };
+		D62FF0B8FDF040725362ED70 /* StifKarp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = StifKarp.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/StifKarp.h; sourceTree = SOURCE_ROOT; };
+		D703E50728613E469F1C70F9 /* Cubic.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Cubic.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/Cubic.h; sourceTree = SOURCE_ROOT; };
+		D9DCB2108A7137B86962F363 /* ofxButton.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxButton.cpp; path = ../../../openFrameworks/addons/ofxGui/src/ofxButton.cpp; sourceTree = SOURCE_ROOT; };
+		DA1A5A44F57A8697F4350C2A /* ofxGuiGroup.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxGuiGroup.cpp; path = ../../../openFrameworks/addons/ofxGui/src/ofxGuiGroup.cpp; sourceTree = SOURCE_ROOT; };
+		DB9AC1C29D5E91FE74888AED /* Logger.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Logger.h; path = ../../../openFrameworks/addons/ofxAssimpModelLoader/libs/assimp/include/Logger.h; sourceTree = SOURCE_ROOT; };
+		DBEDA47AA43C02C65AA8953A /* Granulate.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Granulate.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/Granulate.h; sourceTree = SOURCE_ROOT; };
+		DC26C0B29C556A5A8FB5C2DE /* FileLoop.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = FileLoop.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/FileLoop.cpp; sourceTree = SOURCE_ROOT; };
+		DC6432D02D454E63C78C9394 /* FileLoop.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = FileLoop.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/FileLoop.h; sourceTree = SOURCE_ROOT; };
+		DCB2F623267278B2F04F1324 /* FileWrite.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = FileWrite.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/FileWrite.h; sourceTree = SOURCE_ROOT; };
+		DDBF618F2B8E806EB642423D /* BiQuad.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = BiQuad.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/BiQuad.h; sourceTree = SOURCE_ROOT; };
+		DE45D783E432F6C420BABF4B /* aiFileIO.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = aiFileIO.h; path = ../../../openFrameworks/addons/ofxAssimpModelLoader/libs/assimp/include/aiFileIO.h; sourceTree = SOURCE_ROOT; };
+		DE9B2CEEDE9F3026877833AF /* BlowHole.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = BlowHole.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/BlowHole.cpp; sourceTree = SOURCE_ROOT; };
+		DF016FDD79F86E7A1AAE7586 /* BeeThree.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = BeeThree.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/BeeThree.cpp; sourceTree = SOURCE_ROOT; };
+		DF795E3B255B734F94892158 /* JCRev.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = JCRev.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/JCRev.cpp; sourceTree = SOURCE_ROOT; };
+		E0097E606BA4560C5E2D152C /* Twang.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Twang.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/Twang.cpp; sourceTree = SOURCE_ROOT; };
+		E0869194E2672E7508A67571 /* Asymp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Asymp.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/Asymp.cpp; sourceTree = SOURCE_ROOT; };
+		E11E094C95BA1FD7F548C352 /* ofxLabel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxLabel.h; path = ../../../openFrameworks/addons/ofxGui/src/ofxLabel.h; sourceTree = SOURCE_ROOT; };
+		E168626019140AA5F1614713 /* Modal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Modal.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/Modal.h; sourceTree = SOURCE_ROOT; };
+		E223B2CA49A657C54AEEEFDF /* Chorus.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Chorus.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/Chorus.cpp; sourceTree = SOURCE_ROOT; };
+		E2BBE46503A70B9A38DDA13B /* aiVector3D.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = aiVector3D.h; path = ../../../openFrameworks/addons/ofxAssimpModelLoader/libs/assimp/include/aiVector3D.h; sourceTree = SOURCE_ROOT; };
+		E3898032239F619BA4141D34 /* Modulate.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Modulate.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/Modulate.cpp; sourceTree = SOURCE_ROOT; };
+		E3F6D0836206D2A7EE5C3EEA /* Flute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Flute.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/Flute.h; sourceTree = SOURCE_ROOT; };
+		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../openFrameworks/libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
+		E45BE9710E8CC7DD009D7055 /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /System/Library/Frameworks/AGL.framework; sourceTree = "<absolute>"; };
+		E45BE9720E8CC7DD009D7055 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
+		E45BE9730E8CC7DD009D7055 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
+		E45BE9750E8CC7DD009D7055 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /System/Library/Frameworks/CoreAudio.framework; sourceTree = "<absolute>"; };
+		E45BE9760E8CC7DD009D7055 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		E45BE9770E8CC7DD009D7055 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
+		E45BE9790E8CC7DD009D7055 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		E45BE97A0E8CC7DD009D7055 /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = /System/Library/Frameworks/QuickTime.framework; sourceTree = "<absolute>"; };
+		E4B69B5B0A3A1756003C02F2 /* figurePointCloud_LineFindMusicDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = figurePointCloud_LineFindMusicDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B69E1D0A3A1BDC003C02F2 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofApp.cpp; path = src/ofApp.cpp; sourceTree = SOURCE_ROOT; };
+		E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = src/ofApp.h; sourceTree = SOURCE_ROOT; };
+		E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = "openFrameworks-Info.plist"; sourceTree = "<group>"; };
+		E4C2424410CC5A17004149E2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		E4C2424510CC5A17004149E2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		E4C2424610CC5A17004149E2 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		E4CBC0B086AED35CA9E5543E /* JetTable.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = JetTable.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/JetTable.h; sourceTree = SOURCE_ROOT; };
+		E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = CoreOF.xcconfig; path = ../../../openFrameworks/libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig; sourceTree = SOURCE_ROOT; };
+		E4EB6923138AFD0F00A09F29 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
+		E5E354738D0D0D1FA81E6007 /* Shakers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Shakers.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/Shakers.h; sourceTree = SOURCE_ROOT; };
+		E7E077E415D3B63C0020DFD4 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
+		E7E077E715D3B6510020DFD4 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		E7F985F515E0DE99003869B5 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = /System/Library/Frameworks/Accelerate.framework; sourceTree = "<absolute>"; };
+		E8D0C55DA58F3B729216620F /* BowTable.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = BowTable.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/BowTable.h; sourceTree = SOURCE_ROOT; };
+		EB3201160578C6D014374482 /* Instrmnt.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Instrmnt.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/Instrmnt.h; sourceTree = SOURCE_ROOT; };
+		EBD8B1EAEAF0A48056B79D18 /* Simple.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Simple.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/Simple.h; sourceTree = SOURCE_ROOT; };
+		ECF9A68922304692C573D4CE /* Flute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Flute.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/Flute.cpp; sourceTree = SOURCE_ROOT; };
+		ED80A7ACEFF831BCC3858248 /* ofxAssimpMeshHelper.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxAssimpMeshHelper.h; path = ../../../openFrameworks/addons/ofxAssimpModelLoader/src/ofxAssimpMeshHelper.h; sourceTree = SOURCE_ROOT; };
+		EDD9E25F70FEA90A8FA10CD9 /* Envelope.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Envelope.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/Envelope.h; sourceTree = SOURCE_ROOT; };
+		EE042A8C3BFA51068CE04A8D /* ofxGui.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxGui.h; path = ../../../openFrameworks/addons/ofxGui/src/ofxGui.h; sourceTree = SOURCE_ROOT; };
+		EE7908B8D6770AA573D1949D /* Iir.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Iir.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/Iir.cpp; sourceTree = SOURCE_ROOT; };
+		F1174BE55663DC9EC0CAA040 /* Mandolin.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Mandolin.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/Mandolin.h; sourceTree = SOURCE_ROOT; };
+		F1F1C71F0A42359912511235 /* Effect.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Effect.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/Effect.h; sourceTree = SOURCE_ROOT; };
+		F48C3B9466012DDB1EF590BC /* JCRev.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = JCRev.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/JCRev.h; sourceTree = SOURCE_ROOT; };
+		F507AC83915265925E9FBB50 /* PercFlut.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = PercFlut.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/PercFlut.cpp; sourceTree = SOURCE_ROOT; };
+		F56CEEBECEAF7B6AF08D9F3F /* WvIn.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = WvIn.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/WvIn.h; sourceTree = SOURCE_ROOT; };
+		F576AE27189376C660812DCC /* MidiFileIn.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = MidiFileIn.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/MidiFileIn.h; sourceTree = SOURCE_ROOT; };
+		F5C5970C5892F886EA517B7A /* TubeBell.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = TubeBell.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/TubeBell.cpp; sourceTree = SOURCE_ROOT; };
+		F5DBA87517FAF5321866BC3A /* SingWave.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = SingWave.cpp; path = ../../../openFrameworks/addons/ofxStk/libs/STK/src/SingWave.cpp; sourceTree = SOURCE_ROOT; };
+		F674C39EDA75315DDDCDC7D8 /* BlowBotl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = BlowBotl.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/BlowBotl.h; sourceTree = SOURCE_ROOT; };
+		F6FCD86630F23E94C3FD9FB3 /* ofxAssimpAnimation.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxAssimpAnimation.h; path = ../../../openFrameworks/addons/ofxAssimpModelLoader/src/ofxAssimpAnimation.h; sourceTree = SOURCE_ROOT; };
+		F729DE9098D50267AEB6A519 /* WvOut.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = WvOut.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/WvOut.h; sourceTree = SOURCE_ROOT; };
+		FA724F600E0AD8B2D8417A2A /* Rhodey.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Rhodey.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/Rhodey.h; sourceTree = SOURCE_ROOT; };
+		FBF290766CC80F858E89F003 /* ofxSlider.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxSlider.h; path = ../../../openFrameworks/addons/ofxGui/src/ofxSlider.h; sourceTree = SOURCE_ROOT; };
+		FE62BD5E06E54D0A2C0BAF37 /* ofxAssimpModelLoader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxAssimpModelLoader.cpp; path = ../../../openFrameworks/addons/ofxAssimpModelLoader/src/ofxAssimpModelLoader.cpp; sourceTree = SOURCE_ROOT; };
+		FF98EE86E911FEBD8434804E /* Sitar.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Sitar.h; path = ../../../openFrameworks/addons/ofxStk/libs/STK/include/Sitar.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4B69B590A3A1756003C02F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6474CBF619BCE019003C94E2 /* AVFoundation.framework in Frameworks */,
+				6474CBF719BCE019003C94E2 /* CoreMedia.framework in Frameworks */,
+				6474CBF819BCE019003C94E2 /* QuartzCore.framework in Frameworks */,
+				E7F985F815E0DEA3003869B5 /* Accelerate.framework in Frameworks */,
+				E7E077E815D3B6510020DFD4 /* QTKit.framework in Frameworks */,
+				E4EB6799138ADC1D00A09F29 /* GLUT.framework in Frameworks */,
+				E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */,
+				E45BE97B0E8CC7DD009D7055 /* AGL.framework in Frameworks */,
+				E45BE97C0E8CC7DD009D7055 /* ApplicationServices.framework in Frameworks */,
+				E45BE97D0E8CC7DD009D7055 /* AudioToolbox.framework in Frameworks */,
+				E45BE97F0E8CC7DD009D7055 /* CoreAudio.framework in Frameworks */,
+				E45BE9800E8CC7DD009D7055 /* CoreFoundation.framework in Frameworks */,
+				E45BE9810E8CC7DD009D7055 /* CoreServices.framework in Frameworks */,
+				E45BE9830E8CC7DD009D7055 /* OpenGL.framework in Frameworks */,
+				E45BE9840E8CC7DD009D7055 /* QuickTime.framework in Frameworks */,
+				E4C2424710CC5A17004149E2 /* AppKit.framework in Frameworks */,
+				E4C2424810CC5A17004149E2 /* Cocoa.framework in Frameworks */,
+				E4C2424910CC5A17004149E2 /* IOKit.framework in Frameworks */,
+				E7E077E515D3B63C0020DFD4 /* CoreVideo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16B6C202C8F3CB113835D51F /* src */ = {
+			isa = PBXGroup;
+			children = (
+				9804CC91B62E43E8DBB946D7 /* ADSR.cpp */,
+				E0869194E2672E7508A67571 /* Asymp.cpp */,
+				2341C549F48987E9FB3A353D /* BandedWG.cpp */,
+				DF016FDD79F86E7A1AAE7586 /* BeeThree.cpp */,
+				41E69DE405BD28D25901CFCE /* BiQuad.cpp */,
+				B1D7B9B342DA3D81C6F9D40C /* Blit.cpp */,
+				A06D76B30E9A04B063745B03 /* BlitSaw.cpp */,
+				A363BE855716139D8FDD0BA4 /* BlitSquare.cpp */,
+				31C6B019D7B505654471DA09 /* BlowBotl.cpp */,
+				DE9B2CEEDE9F3026877833AF /* BlowHole.cpp */,
+				1CDC1A4DDCC695CE44E4D902 /* Bowed.cpp */,
+				A4362AFCCC0872D677ABA1BB /* Brass.cpp */,
+				E223B2CA49A657C54AEEEFDF /* Chorus.cpp */,
+				12DE76EACE9C3734727018AE /* Clarinet.cpp */,
+				161918BB512D268AA7D653B2 /* Delay.cpp */,
+				7B7ED272A4F9AB2E598DAA93 /* DelayA.cpp */,
+				767084EC9FF9071313365154 /* DelayL.cpp */,
+				1525CE50A81600A249E5C5AF /* Drummer.cpp */,
+				1C2EBC9ACF0382859A207C70 /* Echo.cpp */,
+				88A80B59C70137CFAADB02EE /* Envelope.cpp */,
+				DC26C0B29C556A5A8FB5C2DE /* FileLoop.cpp */,
+				8B91F58E1A2B4F0B08D9B31B /* FileRead.cpp */,
+				2320EAAEBDEEC02DE6C4AA62 /* FileWrite.cpp */,
+				3FEAEC075D4A59FC8A0E78B7 /* FileWvIn.cpp */,
+				84250C1D834F6226533369A7 /* FileWvOut.cpp */,
+				0BEE689D050A69D5A018460A /* Fir.cpp */,
+				ECF9A68922304692C573D4CE /* Flute.cpp */,
+				70FA5EE739C124E3469316FE /* FM.cpp */,
+				18701B9E9583F91212FC48A7 /* FMVoices.cpp */,
+				40337486771F68A46E75EEB8 /* FormSwep.cpp */,
+				C9598C93F0077E2BC475569B /* FreeVerb.cpp */,
+				480FBEFEC9E5A6ADEDB8D69E /* Granulate.cpp */,
+				05F6E60F9C167A7757079431 /* Guitar.cpp */,
+				7C45F8DDA563ADBA9ACA0744 /* HevyMetl.cpp */,
+				EE7908B8D6770AA573D1949D /* Iir.cpp */,
+				DF795E3B255B734F94892158 /* JCRev.cpp */,
+				567B3CF3D025EDED6622EEFC /* LentPitShift.cpp */,
+				7890D2E2837A1D488AA52789 /* Mandolin.cpp */,
+				4E27ACFC045890E624F973BC /* Mesh2D.cpp */,
+				041D3B6BE3F804CC7ED3373C /* Messager.cpp */,
+				603F2CEEA1517C3DF68DB8EA /* MidiFileIn.cpp */,
+				8B03D02AFE382496B83CC59C /* Modal.cpp */,
+				821874EAB4E898478096FA99 /* ModalBar.cpp */,
+				E3898032239F619BA4141D34 /* Modulate.cpp */,
+				2E2387C90158DE77AD1C27B1 /* Moog.cpp */,
+				817B0AE13E2DB4E47168CFA0 /* Noise.cpp */,
+				37695C81FCA7C14A8ACBFD6A /* NRev.cpp */,
+				00F175C36C2C05BAAA92D72E /* OnePole.cpp */,
+				D46D91DBCA218A1B657EDC02 /* OneZero.cpp */,
+				F507AC83915265925E9FBB50 /* PercFlut.cpp */,
+				57D54186F5A0D43CE9349227 /* Phonemes.cpp */,
+				43EB6BF7DFBF34D2A37FFF94 /* PitShift.cpp */,
+				35FCF03FF04B43989EF8653E /* Plucked.cpp */,
+				111B13FFA03C14E7B406C978 /* PoleZero.cpp */,
+				2A92EF7C9CFEECB3D1A61545 /* PRCRev.cpp */,
+				6F0DC5C7C22E06D29B0FAFFA /* Resonate.cpp */,
+				7D3E136A768029A14129A99A /* Rhodey.cpp */,
+				CE4528C890D30CF29F240C1A /* Sampler.cpp */,
+				A328FDE8378C473AFA02CAF5 /* Saxofony.cpp */,
+				37450122D224B8E28F8A7962 /* Shakers.cpp */,
+				10E52605E660C4D51A417B12 /* Simple.cpp */,
+				C731E1E842546F06EAD3788E /* SineWave.cpp */,
+				F5DBA87517FAF5321866BC3A /* SingWave.cpp */,
+				301928B39844C51B94E51D90 /* Sitar.cpp */,
+				2ACE9262F7B95E92972E9C64 /* Skini.cpp */,
+				380DBE86C1C4D623DED5E452 /* Sphere.cpp */,
+				34B0758F0EEEBB6688D88DD8 /* StifKarp.cpp */,
+				A7F78371E7915F072CC4E4E3 /* Stk.cpp */,
+				7E87E5E1EAA37D81799F10A8 /* TapDelay.cpp */,
+				F5C5970C5892F886EA517B7A /* TubeBell.cpp */,
+				E0097E606BA4560C5E2D152C /* Twang.cpp */,
+				5BB6D83DFD5906FFF221054A /* TwoPole.cpp */,
+				48296838FA94FF3332746D6A /* TwoZero.cpp */,
+				7ED75EEAB28FBB250076A42A /* Voicer.cpp */,
+				C4FE43B874FA382598CBCAFA /* VoicForm.cpp */,
+				57AD15040601CB53C24FE056 /* Whistle.cpp */,
+				B79A31C2C61A8BFDD9F33226 /* Wurley.cpp */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		2C8F245ACBE61E28646C17F2 /* ofxAssimpModelLoader */ = {
+			isa = PBXGroup;
+			children = (
+				9D99F547CA5C0ECCB9EB9806 /* src */,
+				C721A9AF1157766AFE54645E /* libs */,
+			);
+			name = ofxAssimpModelLoader;
+			sourceTree = "<group>";
+		};
+		480A780D8D0308AE4A368801 /* ofxGui */ = {
+			isa = PBXGroup;
+			children = (
+				A763ED608B35AE3310251DEE /* src */,
+			);
+			name = ofxGui;
+			sourceTree = "<group>";
+		};
+		548082D8A1FA2CFD716CDF40 /* STK */ = {
+			isa = PBXGroup;
+			children = (
+				6FF878A5B312908D53645313 /* include */,
+				16B6C202C8F3CB113835D51F /* src */,
+			);
+			name = STK;
+			sourceTree = "<group>";
+		};
+		59905D957FDE48902CF1F729 /* assimp */ = {
+			isa = PBXGroup;
+			children = (
+				EEFDD7AE0009AE6F77EF2A93 /* include */,
+			);
+			name = assimp;
+			sourceTree = "<group>";
+		};
+		6FF878A5B312908D53645313 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				6DA518F44A6A150DF6DA9D6B /* ADSR.h */,
+				68E638A0FE56C352A24D0B7C /* Asymp.h */,
+				1DC160D77C9E9131A2D0474E /* BandedWG.h */,
+				46E887C1BB165671320C490B /* BeeThree.h */,
+				DDBF618F2B8E806EB642423D /* BiQuad.h */,
+				82AAA9E186F85DE702B7B39E /* Blit.h */,
+				4D27AED8674417DDD3A3C8E4 /* BlitSaw.h */,
+				99712C0C4488830674A79A1E /* BlitSquare.h */,
+				F674C39EDA75315DDDCDC7D8 /* BlowBotl.h */,
+				198E00F6F4E6F125EC85D571 /* BlowHole.h */,
+				7552791A01DF5F64E1F442C5 /* Bowed.h */,
+				E8D0C55DA58F3B729216620F /* BowTable.h */,
+				7E9119DE77B63CBA2EA6E6BE /* Brass.h */,
+				792DC8662461B3F3858032EF /* Chorus.h */,
+				0DEE03BCAB7F1D79CBFBBF3E /* Clarinet.h */,
+				D703E50728613E469F1C70F9 /* Cubic.h */,
+				8E566EEC3C64B1BB1A28D993 /* Delay.h */,
+				AE4D76E2F6ED2D855E994277 /* DelayA.h */,
+				AE55D9E1934235BFEE8245B8 /* DelayL.h */,
+				0CBA388EB837548FEE0628EF /* Drummer.h */,
+				225AE2090DA61B9F100B1850 /* Echo.h */,
+				F1F1C71F0A42359912511235 /* Effect.h */,
+				EDD9E25F70FEA90A8FA10CD9 /* Envelope.h */,
+				DC6432D02D454E63C78C9394 /* FileLoop.h */,
+				75C7D9BD703BA2E7019665B5 /* FileRead.h */,
+				DCB2F623267278B2F04F1324 /* FileWrite.h */,
+				8A32DF9736249A2B2681F1F2 /* FileWvIn.h */,
+				5FCA37803039226ACC918CD2 /* FileWvOut.h */,
+				0AE01CB9DA53BBBA6A73782B /* Filter.h */,
+				4DBB42D2ABC2F48312B93DD8 /* Fir.h */,
+				E3F6D0836206D2A7EE5C3EEA /* Flute.h */,
+				C1156EFA420541CA993A5C5A /* FM.h */,
+				575CACE277AF6D3A5C3002C5 /* FMVoices.h */,
+				ACA6FC47689E177F613EA6BF /* FormSwep.h */,
+				2A3E7E6455B215D8A98DDC85 /* FreeVerb.h */,
+				22FF5AF9DCD9C1CBE1E3B2EA /* Function.h */,
+				0B027A12F9F9CEACCF861C3E /* Generator.h */,
+				DBEDA47AA43C02C65AA8953A /* Granulate.h */,
+				9A2094E89C796238C93983EF /* Guitar.h */,
+				CBB7569A28B335623E6AD635 /* HevyMetl.h */,
+				7D36F56F829A129235359CD4 /* Iir.h */,
+				EB3201160578C6D014374482 /* Instrmnt.h */,
+				F48C3B9466012DDB1EF590BC /* JCRev.h */,
+				E4CBC0B086AED35CA9E5543E /* JetTable.h */,
+				BD7375F303A4C680E233E38A /* LentPitShift.h */,
+				F1174BE55663DC9EC0CAA040 /* Mandolin.h */,
+				05DD5BFF5E78134F7B6B79B5 /* Mesh2D.h */,
+				CB9980AEA4CDBEC56001A48B /* Messager.h */,
+				F576AE27189376C660812DCC /* MidiFileIn.h */,
+				E168626019140AA5F1614713 /* Modal.h */,
+				2D74C268E4C756F0C1B47366 /* ModalBar.h */,
+				B1D0B168A83093E13DCE8E20 /* Modulate.h */,
+				42B4F1AA929F56F1DDB09B34 /* Moog.h */,
+				507984EA706360683BA277AE /* Noise.h */,
+				26FF1764AF62B930499B7723 /* NRev.h */,
+				0BB7F5B79F4FB0714D77CDCD /* OnePole.h */,
+				AEDBAB1295C01845D9D3141D /* OneZero.h */,
+				CA107D51ABA6F716E057A1B7 /* PercFlut.h */,
+				507188A73DD6B3DB2E2AE0CD /* Phonemes.h */,
+				77F673FA9EB57191B56CB06F /* PitShift.h */,
+				99E7958FBE38DC7238109C37 /* Plucked.h */,
+				B9FEFA51949A604E2913DA55 /* PoleZero.h */,
+				43692E74CEB9D352DEEE5A27 /* PRCRev.h */,
+				BB9AD38FBFEFC23A5F3EC5BE /* ReedTable.h */,
+				05DB9AA83B31EE49B9954C9C /* Resonate.h */,
+				FA724F600E0AD8B2D8417A2A /* Rhodey.h */,
+				BDE969CF50510349F26702B1 /* Sampler.h */,
+				1B81F73F82201BE3A4A26DE6 /* Saxofony.h */,
+				E5E354738D0D0D1FA81E6007 /* Shakers.h */,
+				EBD8B1EAEAF0A48056B79D18 /* Simple.h */,
+				1126ED0A190F972F76FDB9D3 /* SineWave.h */,
+				068960F72108EE695E49FB78 /* SingWave.h */,
+				FF98EE86E911FEBD8434804E /* Sitar.h */,
+				57935B77A356FAD50B1087D4 /* Skini.h */,
+				98851B51BC85F17F250CFD98 /* Sphere.h */,
+				D62FF0B8FDF040725362ED70 /* StifKarp.h */,
+				3AA776F88F4667C245DD6606 /* Stk.h */,
+				50E258A32DA2FF7B1BD3D20B /* TapDelay.h */,
+				5D0A944F1DA4534565224EA1 /* TubeBell.h */,
+				09D9453B39064892FCD81328 /* Twang.h */,
+				036E31D81D4F84E9BB2F06E5 /* TwoPole.h */,
+				68C226F9176E2D6142028E91 /* TwoZero.h */,
+				6319112FC5A93208746B4369 /* Vector3D.h */,
+				7D3115549BE25CAE176B0778 /* Voicer.h */,
+				A2F66410C1578AD3133A584A /* VoicForm.h */,
+				1ADB882C28BB05666DD7C7B1 /* Whistle.h */,
+				1B134033C81D6BBC979E0195 /* Wurley.h */,
+				F56CEEBECEAF7B6AF08D9F3F /* WvIn.h */,
+				F729DE9098D50267AEB6A519 /* WvOut.h */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		93A9152986A73DA32DBD7964 /* Compiler */ = {
+			isa = PBXGroup;
+			children = (
+				183FE90079FBB3DEC2D75EA4 /* poppack1.h */,
+				CF1C38627CBEC2A50BF66937 /* pushpack1.h */,
+			);
+			name = Compiler;
+			sourceTree = "<group>";
+		};
+		9D99F547CA5C0ECCB9EB9806 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				221C66CCA102B0971FDFA667 /* ofxAssimpAnimation.cpp */,
+				F6FCD86630F23E94C3FD9FB3 /* ofxAssimpAnimation.h */,
+				432F078777DA577F0F9A5368 /* ofxAssimpMeshHelper.cpp */,
+				ED80A7ACEFF831BCC3858248 /* ofxAssimpMeshHelper.h */,
+				FE62BD5E06E54D0A2C0BAF37 /* ofxAssimpModelLoader.cpp */,
+				CE9DF246EAF0C3287D6C33A3 /* ofxAssimpModelLoader.h */,
+				5549454B3E55B6134D8E566F /* ofxAssimpTexture.cpp */,
+				97CFF6774193A6C82B674EF1 /* ofxAssimpTexture.h */,
+				4532EA90CD24AA29C2EA8DE4 /* ofxAssimpUtils.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		A763ED608B35AE3310251DEE /* src */ = {
+			isa = PBXGroup;
+			children = (
+				21338A6C04CD884E2D42D277 /* ofxBaseGui.cpp */,
+				1097784E22D324E48AFCE62A /* ofxBaseGui.h */,
+				D9DCB2108A7137B86962F363 /* ofxButton.cpp */,
+				22411F331B8C03014CA35550 /* ofxButton.h */,
+				EE042A8C3BFA51068CE04A8D /* ofxGui.h */,
+				DA1A5A44F57A8697F4350C2A /* ofxGuiGroup.cpp */,
+				5E8F9B191873126A8DFBD583 /* ofxGuiGroup.h */,
+				D214028C2B61E5D2FEF8E270 /* ofxLabel.cpp */,
+				E11E094C95BA1FD7F548C352 /* ofxLabel.h */,
+				75A83DB93D67E59DC5E3E418 /* ofxPanel.cpp */,
+				D53140F76C038F363903A997 /* ofxPanel.h */,
+				0BEF0C769A12377F5A08697C /* ofxSlider.cpp */,
+				FBF290766CC80F858E89F003 /* ofxSlider.h */,
+				5EE9CAF64503E5DE5229064B /* ofxSliderGroup.cpp */,
+				2D3D85D85F3A4B7B03D2F7ED /* ofxSliderGroup.h */,
+				2FC63A2A9606875F26499ED4 /* ofxToggle.cpp */,
+				1E6224DDD57C5BBC67A3D596 /* ofxToggle.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		B90B9CBAD467DB6AFB4765EA /* src */ = {
+			isa = PBXGroup;
+			children = (
+				71F9CE517D121D1D652A2885 /* ofxStk.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		BB4B014C10F69532006C3DED /* addons */ = {
+			isa = PBXGroup;
+			children = (
+				2C8F245ACBE61E28646C17F2 /* ofxAssimpModelLoader */,
+				480A780D8D0308AE4A368801 /* ofxGui */,
+				ED7E97A03D055738C1920624 /* ofxStk */,
+			);
+			name = addons;
+			sourceTree = "<group>";
+		};
+		BBAB23C913894ECA00AA2426 /* system frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6474CBF019BCE00B003C94E2 /* AVFoundation.framework */,
+				6474CBF119BCE00B003C94E2 /* CoreMedia.framework */,
+				6474CBF219BCE00B003C94E2 /* QuartzCore.framework */,
+				E7F985F515E0DE99003869B5 /* Accelerate.framework */,
+				E4C2424410CC5A17004149E2 /* AppKit.framework */,
+				E4C2424510CC5A17004149E2 /* Cocoa.framework */,
+				E4C2424610CC5A17004149E2 /* IOKit.framework */,
+				E45BE9710E8CC7DD009D7055 /* AGL.framework */,
+				E45BE9720E8CC7DD009D7055 /* ApplicationServices.framework */,
+				E45BE9730E8CC7DD009D7055 /* AudioToolbox.framework */,
+				E45BE9750E8CC7DD009D7055 /* CoreAudio.framework */,
+				E45BE9760E8CC7DD009D7055 /* CoreFoundation.framework */,
+				E45BE9770E8CC7DD009D7055 /* CoreServices.framework */,
+				E45BE9790E8CC7DD009D7055 /* OpenGL.framework */,
+				E45BE97A0E8CC7DD009D7055 /* QuickTime.framework */,
+				E7E077E415D3B63C0020DFD4 /* CoreVideo.framework */,
+				E7E077E715D3B6510020DFD4 /* QTKit.framework */,
+			);
+			name = "system frameworks";
+			sourceTree = "<group>";
+		};
+		BBAB23CA13894EDB00AA2426 /* 3rd party frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBAB23BE13894E4700AA2426 /* GLUT.framework */,
+			);
+			name = "3rd party frameworks";
+			sourceTree = "<group>";
+		};
+		C721A9AF1157766AFE54645E /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				59905D957FDE48902CF1F729 /* assimp */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		E4328144138ABC890047C5CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4328148138ABC890047C5CB /* openFrameworksDebug.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E45BE5980E8CC70C009D7055 /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBAB23CA13894EDB00AA2426 /* 3rd party frameworks */,
+				BBAB23C913894ECA00AA2426 /* system frameworks */,
+			);
+			name = frameworks;
+			sourceTree = "<group>";
+		};
+		E4B69B4A0A3A1720003C02F2 = {
+			isa = PBXGroup;
+			children = (
+				E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */,
+				E4EB6923138AFD0F00A09F29 /* Project.xcconfig */,
+				E4B69E1C0A3A1BDC003C02F2 /* src */,
+				E4EEC9E9138DF44700A80321 /* openFrameworks */,
+				BB4B014C10F69532006C3DED /* addons */,
+				E45BE5980E8CC70C009D7055 /* frameworks */,
+				E4B69B5B0A3A1756003C02F2 /* figurePointCloud_LineFindMusicDebug.app */,
+			);
+			sourceTree = "<group>";
+		};
+		E4B69E1C0A3A1BDC003C02F2 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
+				E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */,
+				E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */,
+				A864476812F291D75DB40674 /* DrawSynth.cpp */,
+				B90B4DE2B494007C61FD0F5E /* DrawSynth.h */,
+			);
+			path = src;
+			sourceTree = SOURCE_ROOT;
+		};
+		E4EEC9E9138DF44700A80321 /* openFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */,
+				E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */,
+			);
+			name = openFrameworks;
+			sourceTree = "<group>";
+		};
+		ED7E97A03D055738C1920624 /* ofxStk */ = {
+			isa = PBXGroup;
+			children = (
+				B90B9CBAD467DB6AFB4765EA /* src */,
+				F8079B1E3A842F316019CF77 /* libs */,
+			);
+			name = ofxStk;
+			sourceTree = "<group>";
+		};
+		EEFDD7AE0009AE6F77EF2A93 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				D3ABE2A08A5918255127BAF3 /* aiAnim.h */,
+				4294F29721E39F963D88B980 /* aiAssert.h */,
+				780DE6DADE135A17D4E0C05C /* aiCamera.h */,
+				5A910C26908014C78CF64AF9 /* aiColor4D.h */,
+				ACB32633A8FF88180A21B3D4 /* aiConfig.h */,
+				9E3871ABF3A8E4A585861FCA /* aiDefines.h */,
+				DE45D783E432F6C420BABF4B /* aiFileIO.h */,
+				C1FA5331D25054AC18595DDE /* aiLight.h */,
+				4AA4779638C63A97745BC787 /* aiMaterial.h */,
+				75415E89439C91B1AB425D28 /* aiMatrix3x3.h */,
+				8CD212C42C804F671B7CBA70 /* aiMatrix4x4.h */,
+				C4FCE68E5DFE232E4ADD367D /* aiMesh.h */,
+				55B71CEE2589CDDD6E49C168 /* aiPostProcess.h */,
+				8F341AF59AA2C902F2BD586D /* aiQuaternion.h */,
+				281162459287517AC4D4CEBF /* aiScene.h */,
+				72E73A6B9535C79410533E75 /* aiTexture.h */,
+				1D90AC778AF9FE3D1F0310E2 /* aiTypes.h */,
+				A3A5CA67916D595C37A0DC4D /* aiVector2D.h */,
+				E2BBE46503A70B9A38DDA13B /* aiVector3D.h */,
+				9C6F0872EE3FF2FECC4BA04E /* aiVersion.h */,
+				84804B2F0D7723AA34736B0E /* assimp.h */,
+				601979D69F2DEA21EE617BB8 /* assimp.hpp */,
+				93A9152986A73DA32DBD7964 /* Compiler */,
+				3783B0AC09A78528D6F2922E /* DefaultLogger.h */,
+				74491B970D603D424CB70C55 /* IOStream.h */,
+				835FE4AB3E0E38176C368565 /* IOSystem.h */,
+				DB9AC1C29D5E91FE74888AED /* Logger.h */,
+				0969E5338CDA7F46FB64A8E5 /* LogStream.h */,
+				9E510006C4625D472F8219CB /* NullLogger.h */,
+				86F9D2A26C2868582212281B /* ProgressHandler.h */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		F8079B1E3A842F316019CF77 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				548082D8A1FA2CFD716CDF40 /* STK */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4B69B5A0A3A1756003C02F2 /* figurePointCloud_LineFindMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "figurePointCloud_LineFindMusic" */;
+			buildPhases = (
+				E4B69B580A3A1756003C02F2 /* Sources */,
+				E4B69B590A3A1756003C02F2 /* Frameworks */,
+				E4B6FFFD0C3F9AB9008CF71C /* ShellScript */,
+				E4C2427710CC5ABF004149E2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4EEB9AC138B136A00A80321 /* PBXTargetDependency */,
+			);
+			name = figurePointCloud_LineFindMusic;
+			productName = myOFApp;
+			productReference = E4B69B5B0A3A1756003C02F2 /* figurePointCloud_LineFindMusicDebug.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4B69B4C0A3A1720003C02F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "figurePointCloud_LineFindMusic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = E4B69B4A0A3A1720003C02F2;
+			productRefGroup = E4B69B4A0A3A1720003C02F2;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E4328144138ABC890047C5CB /* Products */;
+					ProjectRef = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				E4B69B5A0A3A1756003C02F2 /* figurePointCloud_LineFindMusic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E4328148138ABC890047C5CB /* openFrameworksDebug.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = openFrameworksDebug.a;
+			remoteRef = E4328147138ABC890047C5CB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E4B6FFFD0C3F9AB9008CF71C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp -f ../../../openFrameworks/libs/fmodex/lib/osx/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/libfmodex.dylib\"; install_name_tool -change ./libfmodex.dylib @executable_path/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME\";\nmkdir -p \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\ncp -f \"$ICON_FILE\" \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4B69B580A3A1756003C02F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
+				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
+				56C133963A95DBA0E4D05E39 /* DrawSynth.cpp in Sources */,
+				9BCCE4E9852814A7F648DC2A /* ofxAssimpAnimation.cpp in Sources */,
+				92AE1D84142B231C572CC448 /* ofxAssimpMeshHelper.cpp in Sources */,
+				7CC0DBEFAB3C5174BF125A9C /* ofxAssimpModelLoader.cpp in Sources */,
+				B9EC6B241584CC1A4CC8CD82 /* ofxAssimpTexture.cpp in Sources */,
+				0AF5A6DD4FEBDAA99120C770 /* ofxBaseGui.cpp in Sources */,
+				1078E1618CC60C7A18689976 /* ofxButton.cpp in Sources */,
+				0DF6FBDAE58ACFAF268374B7 /* ofxGuiGroup.cpp in Sources */,
+				C1D33555E1F09713337366E2 /* ofxLabel.cpp in Sources */,
+				1F00073311F60D2BD697AA20 /* ofxPanel.cpp in Sources */,
+				0ECEF3ACC2803A59D9020003 /* ofxSlider.cpp in Sources */,
+				76018AC3170CFBCC83303514 /* ofxSliderGroup.cpp in Sources */,
+				2F79EB98F746623743E2432C /* ofxToggle.cpp in Sources */,
+				9733BEFD6266252BC7436E30 /* ADSR.cpp in Sources */,
+				39D5BC55346A402DE74E08B5 /* Asymp.cpp in Sources */,
+				6ADE19193E063B9E7AEED65B /* BandedWG.cpp in Sources */,
+				5E8F3AEF33ACF46C237D51A2 /* BeeThree.cpp in Sources */,
+				A3E107527119E5C7E92346DA /* BiQuad.cpp in Sources */,
+				29B99AC703D16A85698E31B9 /* Blit.cpp in Sources */,
+				D2028E6EC7FB44F4DDA2E816 /* BlitSaw.cpp in Sources */,
+				F1194A181AD93A78DE0B70C5 /* BlitSquare.cpp in Sources */,
+				BD572309EAD178884C3560CF /* BlowBotl.cpp in Sources */,
+				F3A2AAB47697630C01CB9482 /* BlowHole.cpp in Sources */,
+				16CCC22F0EC54481D09224E8 /* Bowed.cpp in Sources */,
+				8E249818B5ABFEB16C47820C /* Brass.cpp in Sources */,
+				152637DE0CF6B3F760907D54 /* Chorus.cpp in Sources */,
+				7AFFD3F973B65DAE9F29FDC6 /* Clarinet.cpp in Sources */,
+				F449FC158CD850415B9ECE56 /* Delay.cpp in Sources */,
+				EF615366F5B27C6D860D4C6B /* DelayA.cpp in Sources */,
+				5708827A0D31387065D04D8C /* DelayL.cpp in Sources */,
+				07F3FBF7231518F13C67F3A1 /* Drummer.cpp in Sources */,
+				F4B84B110BE641E3AE0C6969 /* Echo.cpp in Sources */,
+				F1A9F2A399FB7DBB166B28F5 /* Envelope.cpp in Sources */,
+				2F44C85E25A9628758470F14 /* FileLoop.cpp in Sources */,
+				3921570C9D14656B13459DFD /* FileRead.cpp in Sources */,
+				2343A85D8657F8E3B65F8967 /* FileWrite.cpp in Sources */,
+				366E77B7638A136742221C63 /* FileWvIn.cpp in Sources */,
+				0885D0622F4CC64481989755 /* FileWvOut.cpp in Sources */,
+				EC456A70F5EC2ECADAB6DF97 /* Fir.cpp in Sources */,
+				E67CA9559F44FFEC33A3EF05 /* Flute.cpp in Sources */,
+				882789244103386789A94F0E /* FM.cpp in Sources */,
+				B0158A9549DF316B362D9075 /* FMVoices.cpp in Sources */,
+				045B1300E297469F6FAD4ECA /* FormSwep.cpp in Sources */,
+				B804829722E441494703C0B7 /* FreeVerb.cpp in Sources */,
+				D5F328170F6BDAB059167587 /* Granulate.cpp in Sources */,
+				1AE535B7A497FF7919D5FF90 /* Guitar.cpp in Sources */,
+				3E5C36CAF0745E02144048D4 /* HevyMetl.cpp in Sources */,
+				716AC77E15087CAEA8A397A8 /* Iir.cpp in Sources */,
+				0B027E95DD8717F7BCFB48F4 /* JCRev.cpp in Sources */,
+				36907D5E4A70A7FB217D9BFD /* LentPitShift.cpp in Sources */,
+				8D6A759584870D3ADBFDFC4E /* Mandolin.cpp in Sources */,
+				F0AAF9547D71860974D8CB5F /* Mesh2D.cpp in Sources */,
+				27CBA7DB5B0C2B0DAD671039 /* Messager.cpp in Sources */,
+				235AB83A7DD9F79D85767BD0 /* MidiFileIn.cpp in Sources */,
+				047C27ECC3076BDFFE6307E1 /* Modal.cpp in Sources */,
+				48D7607FFA3D4DD376B4EC5A /* ModalBar.cpp in Sources */,
+				E0107081A76FC5694E9D44CA /* Modulate.cpp in Sources */,
+				207D20FC34E37562E218354F /* Moog.cpp in Sources */,
+				ECD1A0D5B9DABD5D0A79782E /* Noise.cpp in Sources */,
+				0C14A6C0DED2BCC3643BD79A /* NRev.cpp in Sources */,
+				DD44FB2322FE1E1B7213D415 /* OnePole.cpp in Sources */,
+				679577B5B81A08BE28DE40B0 /* OneZero.cpp in Sources */,
+				FB91246B066BD56262B6A703 /* PercFlut.cpp in Sources */,
+				87AB789415F525439E439740 /* Phonemes.cpp in Sources */,
+				78B141A5D773C190CCD5357B /* PitShift.cpp in Sources */,
+				C732E0FA8ED721DEE7859D87 /* Plucked.cpp in Sources */,
+				BF5F963E1019467C23147ADE /* PoleZero.cpp in Sources */,
+				8A8728DD83191F5A432F1B9D /* PRCRev.cpp in Sources */,
+				FE537F6D1A35C811E802D738 /* Resonate.cpp in Sources */,
+				F527551A17C139C3E7BCC15F /* Rhodey.cpp in Sources */,
+				B581EF9D854D4D616628DF15 /* Sampler.cpp in Sources */,
+				FE2CD3D91620C768097CE56D /* Saxofony.cpp in Sources */,
+				B3E08FE10EBFD11442ACCFEE /* Shakers.cpp in Sources */,
+				9FC8981216E6467EEDF668B1 /* Simple.cpp in Sources */,
+				7C6E4F7BF147C63630BBD3EE /* SineWave.cpp in Sources */,
+				CB6057A8E1326C7821538711 /* SingWave.cpp in Sources */,
+				296D0FA6451607F04992EEE4 /* Sitar.cpp in Sources */,
+				DF7CEC5AD1C58108C054CB53 /* Skini.cpp in Sources */,
+				E31151122365BE1645BE5693 /* Sphere.cpp in Sources */,
+				187B4718303FE1439EAA4FFD /* StifKarp.cpp in Sources */,
+				CB11553D00A72BAE7F981045 /* Stk.cpp in Sources */,
+				1CD9ED49AC61AE50205DF891 /* TapDelay.cpp in Sources */,
+				DA82806DFC83CCF6690AB7DC /* TubeBell.cpp in Sources */,
+				5A6F86FFEB7361D8DDB12BAE /* Twang.cpp in Sources */,
+				F0CFCD4C3260FF08076B7DB5 /* TwoPole.cpp in Sources */,
+				F82A4B9CF625C4818DCEC68A /* TwoZero.cpp in Sources */,
+				488FD4619A3B26E5E2C54053 /* Voicer.cpp in Sources */,
+				E851887AE2767A083E324985 /* VoicForm.cpp in Sources */,
+				0463EE4EF37CE3A0B8352A02 /* Whistle.cpp in Sources */,
+				C98661BDFB09B0C916EBEB54 /* Wurley.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4EEB9AC138B136A00A80321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = openFrameworks;
+			targetProxy = E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E4B69B4E0A3A1720003C02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH)";
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					../../../openFrameworks/addons/ofxAssimpModelLoader/libs,
+					../../../openFrameworks/addons/ofxAssimpModelLoader/libs/assimp,
+					../../../openFrameworks/addons/ofxAssimpModelLoader/libs/assimp/include,
+					../../../openFrameworks/addons/ofxAssimpModelLoader/libs/assimp/include/Compiler,
+					../../../openFrameworks/addons/ofxAssimpModelLoader/libs/assimp/lib,
+					../../../openFrameworks/addons/ofxAssimpModelLoader/libs/assimp/lib/emscripten,
+					../../../openFrameworks/addons/ofxAssimpModelLoader/libs/assimp/lib/osx,
+					../../../openFrameworks/addons/ofxAssimpModelLoader/src,
+					src,
+					../../../openFrameworks/addons/ofxGui/libs,
+					../../../openFrameworks/addons/ofxGui/src,
+					../../../openFrameworks/addons/ofxStk/libs,
+					../../../openFrameworks/addons/ofxStk/libs/STK,
+					../../../openFrameworks/addons/ofxStk/libs/STK/include,
+					../../../openFrameworks/addons/ofxStk/libs/STK/src,
+					../../../openFrameworks/addons/ofxStk/src,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-lpthread",
+					"-mtune=native",
+				);
+				OTHER_LDFLAGS = (
+					"$(OF_CORE_LIBS)",
+					../../../openFrameworks/addons/ofxAssimpModelLoader/libs/assimp/lib/osx/assimp.a,
+				);
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E4B69B4F0A3A1720003C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH)";
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					../../../openFrameworks/addons/ofxAssimpModelLoader/libs,
+					../../../openFrameworks/addons/ofxAssimpModelLoader/libs/assimp,
+					../../../openFrameworks/addons/ofxAssimpModelLoader/libs/assimp/include,
+					../../../openFrameworks/addons/ofxAssimpModelLoader/libs/assimp/include/Compiler,
+					../../../openFrameworks/addons/ofxAssimpModelLoader/libs/assimp/lib,
+					../../../openFrameworks/addons/ofxAssimpModelLoader/libs/assimp/lib/emscripten,
+					../../../openFrameworks/addons/ofxAssimpModelLoader/libs/assimp/lib/osx,
+					../../../openFrameworks/addons/ofxAssimpModelLoader/src,
+					src,
+					../../../openFrameworks/addons/ofxGui/libs,
+					../../../openFrameworks/addons/ofxGui/src,
+					../../../openFrameworks/addons/ofxStk/libs,
+					../../../openFrameworks/addons/ofxStk/libs/STK,
+					../../../openFrameworks/addons/ofxStk/libs/STK/include,
+					../../../openFrameworks/addons/ofxStk/libs/STK/src,
+					../../../openFrameworks/addons/ofxStk/src,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-lpthread",
+					"-mtune=native",
+				);
+				OTHER_LDFLAGS = (
+					"$(OF_CORE_LIBS)",
+					../../../openFrameworks/addons/ofxAssimpModelLoader/libs/assimp/lib/osx/assimp.a,
+				);
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E4B69B600A3A1757003C02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../openFrameworks/libs/glut/lib/osx\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				ICON = "$(ICON_NAME_DEBUG)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)Debug";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E4B69B610A3A1757003C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../openFrameworks/libs/glut/lib/osx\"";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				ICON = "$(ICON_NAME_RELEASE)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "figurePointCloud_LineFindMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B69B4E0A3A1720003C02F2 /* Debug */,
+				E4B69B4F0A3A1720003C02F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "figurePointCloud_LineFindMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B69B600A3A1757003C02F2 /* Debug */,
+				E4B69B610A3A1757003C02F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4B69B4C0A3A1720003C02F2 /* Project object */;
+}
