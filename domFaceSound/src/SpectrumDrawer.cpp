@@ -16,7 +16,7 @@ SpectrumDrawer::SpectrumDrawer(int _minHz, int _maxHz){
     loadedMusicPlaying=false;
     
     //	ofDisableDataPath();
-    hertZ.loadFont("din.ttf", 10);
+    hertZ.load("din.ttf", 10);
     
     //invert = false;
 }
@@ -24,7 +24,7 @@ void SpectrumDrawer::update(){
     
     ofPushStyle();
     ofSetColor(10, 10, 10., 120);
-    ofRect(10, 10, ofGetWidth()-20, spectrumHeight);
+    ofDrawRectangle(10, 10, ofGetWidth()-20, spectrumHeight);
     ofPopStyle();
     
     if(playing){
@@ -159,14 +159,14 @@ void SpectrumDrawer::loadImageSpectrum(string target){
     clear();
     //imageLoaded=false;
     //	ofDisableDataPath();
-    spectrumLoader.loadImage(target);
-    ratio = (float) spectrumHeight/spectrumLoader.height;
-    spectrumLoader.resize(spectrumLoader.width*ratio, spectrumLoader.height*ratio);
+    spectrumLoader.load(target);
+    ratio = (float) spectrumHeight/spectrumLoader.getHeight();
+    spectrumLoader.resize(spectrumLoader.getWidth()*ratio, spectrumLoader.getHeight()*ratio);
     
-    width = spectrumLoader.width;
-    height = spectrumLoader.height;
+    width = spectrumLoader.getWidth();
+    height = spectrumLoader.getHeight();
     
-    unsigned char * rawPixels = spectrumLoader.getPixels();
+    unsigned char * rawPixels = spectrumLoader.getPixels().getData();
     int r;
     int g;
     int b;
@@ -185,8 +185,8 @@ void SpectrumDrawer::loadImageSpectrum(string target){
             
         }
     }
-    width = spectrumLoader.width;
-    height = spectrumLoader.height;
+    width = spectrumLoader.getWidth();
+    height = spectrumLoader.getHeight();
     
     
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
@@ -213,14 +213,14 @@ void SpectrumDrawer::loadImageSpectrum(ofImage _img){
     //imageLoaded=false;
     //	ofDisableDataPath();
     spectrumCaptureLoader = _img;
-    ratio = (float) spectrumHeight/spectrumCaptureLoader.height;
-    spectrumCaptureLoader.resize(spectrumCaptureLoader.width*ratio, spectrumCaptureLoader.height*ratio);
+    ratio = (float) spectrumHeight/spectrumCaptureLoader.getHeight();
+    spectrumCaptureLoader.resize(spectrumCaptureLoader.getWidth()*ratio, spectrumCaptureLoader.getHeight()*ratio);
     
-    width = spectrumCaptureLoader.width;
-    height = spectrumCaptureLoader.height;
+    width = spectrumCaptureLoader.getWidth();
+    height = spectrumCaptureLoader.getHeight();
     
     
-    unsigned char * rawPixels = spectrumCaptureLoader.getPixels();
+    unsigned char * rawPixels = spectrumCaptureLoader.getPixels().getData();
     int r;
     int g;
     int b;
@@ -242,8 +242,8 @@ void SpectrumDrawer::loadImageSpectrum(ofImage _img){
     
     
     
-    width = spectrumCaptureLoader.width;
-    height = spectrumCaptureLoader.height;
+    width = spectrumCaptureLoader.getWidth();
+    height = spectrumCaptureLoader.getHeight();
     
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     glEnable(GL_TEXTURE_2D);

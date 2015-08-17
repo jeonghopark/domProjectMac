@@ -9,7 +9,7 @@
 #define BUFFER_SIZE 8192
 #define SAMPLE_RATE 44100
 #define INITIAL_BUFFER_SIZE 512
-#define BIT 512
+#define BIT 360
 
 class ofApp : public ofBaseApp{
 
@@ -130,5 +130,7 @@ public:
     ofImage faceImg;
     
     ofSoundStream soundStream;
+    
+    void modelPosition();
     
 };

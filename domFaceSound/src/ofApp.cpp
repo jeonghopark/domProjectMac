@@ -45,7 +45,6 @@ void ofApp::setup(){
     cam.setPosition(-10, -17, 20);
     cam.setOrientation(ofVec3f(75,-88,0));
     
-    cout << ofGetWidth() << endl;
     
     captureW = ofGetWidth()-20;
     captureH = BIT;
@@ -64,8 +63,8 @@ void ofApp::setup(){
     
     soundStream.setDeviceID(1);
     soundStream.setup(this, 2, 0, SAMPLE_RATE, INITIAL_BUFFER_SIZE, 4 );
-//    ofSoundStreamSetup( 2, 2, this, SAMPLE_RATE, INITIAL_BUFFER_SIZE, 4 );
-//    ofSoundStreamStop();
+    //    ofSoundStreamSetup( 2, 2, this, SAMPLE_RATE, INITIAL_BUFFER_SIZE, 4 );
+    //    ofSoundStreamStop();
     
     imageFormat.addListener(this, &ofApp::imageFormatButtonClick);
     
@@ -126,131 +125,10 @@ void ofApp::captureFunction(){
 //--------------------------------------------------------------
 void ofApp::update(){
     
-//    cout << cam.getDistance() << endl;
-//    cout << cam.getPosition() << endl;
-//    cout << cam.getOrientationEuler() << endl;
-
-    //  ooooooooooooooooooooooooooooooaaaaaaaaaaaaaaaaaaaaaaaaaaauuuaaaaaaaaauaaaaaaaaaaaaaaŠaaaaaa¾aaaaaazzzzzzz
-    //    texScreen.loadScreenData( ofGetHeight()-BIT-10, 10, captureW, captureH);
+    texScreen.loadScreenData( ofGetHeight()-BIT-10, 10, captureW, captureH);
     
-    if (modelSelect) {
-        
-        spectrum->stop();
-        
-        modelIndex++;
-        modelIndex = modelIndex%13;
-        
-        mesh.clear();
-        
-        switch ( modelIndex ) {
-            case 0:
-                model1.loadModel("domFace01.obj");
-                faceImg.load("domFace01.jpg");
-                cam.setDistance(30);
-                cam.setPosition(-11, -19, 21);
-                cam.setOrientation(ofVec3f(74,-87,3));
-                break;
-            case 1:
-                model1.loadModel("domFace02.obj");
-                faceImg.load("domFace02.jpg");
-                cam.setDistance(25);
-                cam.setPosition(-12, -15, 15);
-                cam.setOrientation(ofVec3f(69,-88,0));
-                break;
-            case 2:
-                model1.loadModel("domFace03.obj");
-                faceImg.load("domFace03.jpg");
-                cam.setDistance(28);
-                cam.setPosition(-10, -21, 16);
-                cam.setOrientation(ofVec3f(75,-88,0));
-                break;
-            case 3:
-                model1.loadModel("domFace04.obj");
-                faceImg.load("domFace04.jpg");
-                cam.setDistance(31);
-                cam.setPosition(-13, -22, 17);
-                cam.setOrientation(ofVec3f(75,-88,0));
-                break;
-            case 4:
-                model1.loadModel("domFace05.obj");
-                faceImg.load("domFace05.jpg");
-                cam.setDistance(28);
-                cam.setPosition(-16, 23, -4);
-                cam.setOrientation(ofVec3f(-107,85,-5));
-                break;
-            case 5:
-                model1.loadModel("domFace06.obj");
-                faceImg.load("domFace06.jpg");
-                cam.setDistance(31);
-                cam.setPosition(-19, -19, 15);
-                cam.setOrientation(ofVec3f(62,-87,0));
-                break;
-            case 6:
-                model1.loadModel("domFace07.obj");
-                faceImg.load("domFace07.jpg");
-                cam.setDistance(31);
-                cam.setPosition(-19,-20, 13);
-                cam.setOrientation(ofVec3f(60,-91,-4));
-                break;
-            case 7:
-                model1.loadModel("domFace08.obj");
-                faceImg.load("domFace08.jpg");
-                cam.setDistance(31);
-                cam.setPosition(-18,-21, 15);
-                cam.setOrientation(ofVec3f(65,-91,-4));
-                break;
-            case 8:
-                model1.loadModel("domFace09.obj");
-                faceImg.load("domFace09.jpg");
-                cam.setDistance(31);
-                cam.setPosition(-16,-22, 13);
-                cam.setOrientation(ofVec3f(70,-89,0));
-                break;
-            case 9:
-                model1.loadModel("domFace10.obj");
-                faceImg.load("domFace10.jpg");
-                cam.setDistance(27);
-                cam.setPosition(-9,25, 1);
-                cam.setOrientation(ofVec3f(-92,97,4));
-                break;
-            case 10:
-                model1.loadModel("domFace11.obj");
-                faceImg.load("domFace11.jpg");
-                cam.setDistance(31);
-                cam.setPosition(-15,-18, 21);
-                cam.setOrientation(ofVec3f(60,-79,3));
-                break;
-            case 11:
-                model1.loadModel("domFace12.obj");
-                faceImg.load("domFace12.jpg");
-                cam.setDistance(31);
-                cam.setPosition(-24,-11, 16);
-                cam.setOrientation(ofVec3f(41,-90,0));
-                break;
-            case 12:
-                model1.loadModel("domFace13.obj");
-                faceImg.load("domFace13.jpg");
-                cam.setDistance(31);
-                cam.setPosition(-17,-21, 16);
-                cam.setOrientation(ofVec3f(67,-90,0));
-                break;
-                
-            default:
-                break;
-        }
-        
-        mesh = model1.getMesh(0);
-        
-        numPoint = mesh.getNumVertices();
-        
-        for (int i=0; i<numPoint; i++) {
-            mesh.addVertex(mesh.getVertex(i));
-            mesh.addColor(ofColor(255));
-        }
-        //        imageCapture();
-        
-    }
     
+    modelPosition();
     
     
     spectrum->speed = speed;
@@ -305,19 +183,19 @@ void ofApp::draw(){
     ofPopMatrix();
     
     cam.end();
-    s
+    
     ofPushMatrix();
     
     spectrum->update();
     playerHead->update();
     
     ofPushMatrix();
-
+    
     ofTranslate(playerHead->x1, 10);
     
     ofPushStyle();
     if ( spectrum->playing ) {
-        vector< pair <float,float > > points = playerHead -> getPoints(BIT);
+        vector< pair <float, float> > points = playerHead -> getPoints(BIT);
         for(int n = 0;n<BIT;n++){
             ofSetColor(0, 255, 0, 120);
             amp[n] = (amp[n]*line + spectrum -> getAmp(points[n].first, points[n].second))/(line+1);
@@ -329,9 +207,9 @@ void ofApp::draw(){
             //        }else {
             //            ofSetColor(255, 255, 255,255);
             //        }
-            //        if (n<INITIAL_BUFFER_SIZE) {
-            //            ofLine(n*2,outp[n]*10.0 + 20 + 532 ,n*2+2,outp[n+1]*10.0 + 20 + 532);
-            //        }
+            //                    if (n<INITIAL_BUFFER_SIZE) {
+            //                        ofLine(n*2,outp[n]*10.0 + 20 + 532 ,n*2+2,outp[n+1]*10.0 + 20 + 532);
+            //                    }
             //        ofRect(n*1,0 + 532, 1, amp[n]*10.0);
             
             ofDrawRectangle( 0, n*1, amp[n]*30.0, 1 );
@@ -343,31 +221,31 @@ void ofApp::draw(){
     
     ofPopMatrix();
     
-//
-//    
+    //
+    //
     if (bGuiView) {
         ofDisablePointSprites();
         ofDisableDepthTest();
         gui.draw();
     }
-//
-//    
+    //
+    //
     edgeDraw();
-//
+    //
     if(bImageCapture) {
         bImageCapture = false;
         imageCapture();
     }
-//
+    //
     interfaceView();
-
+    
     if (!spectrum->playing) {
         if (imageProcessView) {
             //            captureImage.clear();
             //            texScreen.clear();
             ofPushMatrix();
             ofPushStyle();
-            texProcessScreen.loadScreenData( 10, ofGetHeight()-512-10, captureW, captureH );
+            texProcessScreen.loadScreenData( 10, ofGetHeight() * 0.5 - 10, captureW, captureH );
             captureProcessImage.mirror(true, false);
             //        captureProcessRect.set( 10, ofGetHeight()-512-10, captureW, captureH );
             ofPixels _pProcess;
@@ -388,7 +266,7 @@ void ofApp::draw(){
                         r = _rawPixels[_index*3];
                         g = _rawPixels[_index*3+ 1];
                         b = _rawPixels[_index*3+ 2];
-
+                        
                         for (int k=0; k<_length; k++) {
                             _pProcess.setColor(i+k, j, ofColor( ((r+g+b)/3.0/85.0)*brightness*(ofMap(k,0,_length,1,fadeLength)) ) );
                         }
@@ -417,8 +295,8 @@ void ofApp::draw(){
                     }
                 }
             }
-
-
+            
+            
             _pProcess.mirror(true, false);
             
             captureProcessImage.setFromPixels(_pProcess.getData(), _pProcess.getWidth(), _pProcess.getHeight(), OF_IMAGE_COLOR);
@@ -426,7 +304,7 @@ void ofApp::draw(){
             float _size = 0.4;
             captureProcessImage.draw( ofGetWidth()-captureW*_size, 10, captureW*_size, captureH*_size );
             
-            faceImg.draw( ofGetWidth()-faceImg.width*0.25, captureH*_size, faceImg.width*0.25, faceImg.height*0.25 );
+            faceImg.draw( ofGetWidth()-faceImg.getWidth()*0.25, captureH*_size, faceImg.getWidth()*0.25, faceImg.getHeight()*0.25 );
             
             ofPopStyle();
             ofPopMatrix();
@@ -521,9 +399,9 @@ void ofApp::imageCapture(){
     //    texScreen.allocate(captureW, captureH, GL_RGB);
     //    captureImage.allocate(captureW, captureH, OF_IMAGE_COLOR);
     
-    texScreen.loadScreenData( 10, ofGetHeight()-512-10, captureW, captureH );
+    texScreen.loadScreenData( 10, ofGetHeight()*0.5+10, captureW, captureH );
     captureImage.mirror(true, false);
-    captureRect.set( 10, ofGetHeight()-512-10, captureW, captureH );
+    captureRect.set( 10, ofGetHeight()*0.5+10, captureW, captureH );
     ofPixels _p;
     texScreen.readToPixels(_p);
     
@@ -692,3 +570,128 @@ void ofApp::windowResized(int w, int h){
 void ofApp::dragEvent(ofDragInfo info) {
     
 }
+
+
+//--------------------------------------------------------------
+void ofApp::modelPosition(){
+    
+    if (modelSelect) {
+        
+        spectrum->stop();
+        
+        modelIndex++;
+        modelIndex = modelIndex%13;
+        
+        mesh.clear();
+        
+        switch ( modelIndex ) {
+            case 0:
+                model1.loadModel("domFace01.obj");
+                faceImg.load("domFace01.jpg");
+                cam.setDistance(30);
+                cam.setPosition(-11, -19, 21);
+                cam.setOrientation(ofVec3f(74,-87,3));
+                break;
+            case 1:
+                model1.loadModel("domFace02.obj");
+                faceImg.load("domFace02.jpg");
+                cam.setDistance(25);
+                cam.setPosition(-12, -15, 15);
+                cam.setOrientation(ofVec3f(69,-88,0));
+                break;
+            case 2:
+                model1.loadModel("domFace03.obj");
+                faceImg.load("domFace03.jpg");
+                cam.setDistance(28);
+                cam.setPosition(-10, -21, 16);
+                cam.setOrientation(ofVec3f(75,-88,0));
+                break;
+            case 3:
+                model1.loadModel("domFace04.obj");
+                faceImg.load("domFace04.jpg");
+                cam.setDistance(31);
+                cam.setPosition(-13, -22, 17);
+                cam.setOrientation(ofVec3f(75,-88,0));
+                break;
+            case 4:
+                model1.loadModel("domFace05.obj");
+                faceImg.load("domFace05.jpg");
+                cam.setDistance(28);
+                cam.setPosition(-16, 23, -4);
+                cam.setOrientation(ofVec3f(-107,85,-5));
+                break;
+            case 5:
+                model1.loadModel("domFace06.obj");
+                faceImg.load("domFace06.jpg");
+                cam.setDistance(31);
+                cam.setPosition(-19, -19, 15);
+                cam.setOrientation(ofVec3f(62,-87,0));
+                break;
+            case 6:
+                model1.loadModel("domFace07.obj");
+                faceImg.load("domFace07.jpg");
+                cam.setDistance(31);
+                cam.setPosition(-19,-20, 13);
+                cam.setOrientation(ofVec3f(60,-91,-4));
+                break;
+            case 7:
+                model1.loadModel("domFace08.obj");
+                faceImg.load("domFace08.jpg");
+                cam.setDistance(31);
+                cam.setPosition(-18,-21, 15);
+                cam.setOrientation(ofVec3f(65,-91,-4));
+                break;
+            case 8:
+                model1.loadModel("domFace09.obj");
+                faceImg.load("domFace09.jpg");
+                cam.setDistance(31);
+                cam.setPosition(-16,-22, 13);
+                cam.setOrientation(ofVec3f(70,-89,0));
+                break;
+            case 9:
+                model1.loadModel("domFace10.obj");
+                faceImg.load("domFace10.jpg");
+                cam.setDistance(27);
+                cam.setPosition(-9,25, 1);
+                cam.setOrientation(ofVec3f(-92,97,4));
+                break;
+            case 10:
+                model1.loadModel("domFace11.obj");
+                faceImg.load("domFace11.jpg");
+                cam.setDistance(31);
+                cam.setPosition(-15,-18, 21);
+                cam.setOrientation(ofVec3f(60,-79,3));
+                break;
+            case 11:
+                model1.loadModel("domFace12.obj");
+                faceImg.load("domFace12.jpg");
+                cam.setDistance(31);
+                cam.setPosition(-24,-11, 16);
+                cam.setOrientation(ofVec3f(41,-90,0));
+                break;
+            case 12:
+                model1.loadModel("domFace13.obj");
+                faceImg.load("domFace13.jpg");
+                cam.setDistance(31);
+                cam.setPosition(-17,-21, 16);
+                cam.setOrientation(ofVec3f(67,-90,0));
+                break;
+                
+            default:
+                break;
+        }
+        
+        mesh = model1.getMesh(0);
+        
+        numPoint = mesh.getNumVertices();
+        
+        for (int i=0; i<numPoint; i++) {
+            mesh.addVertex(mesh.getVertex(i));
+            mesh.addColor(ofColor(255));
+        }
+        //                imageCapture();
+        
+    }
+}
+
+

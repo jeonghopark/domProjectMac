@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-               BuildableName = "domFaceSound.app"
-               BlueprintName = "domFaceSound"
-               ReferencedContainer = "container:domFaceSound.xcodeproj">
+               BuildableName = "DomFaceSound.app"
+               BlueprintName = "DomFaceSound"
+               ReferencedContainer = "container:DomFaceSound.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-            BuildableName = "domFaceSound.app"
-            BlueprintName = "domFaceSound"
-            ReferencedContainer = "container:domFaceSound.xcodeproj">
+            BuildableName = "DomFaceSound.app"
+            BlueprintName = "DomFaceSound"
+            ReferencedContainer = "container:DomFaceSound.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -52,9 +52,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-            BuildableName = "domFaceSound.app"
-            BlueprintName = "domFaceSound"
-            ReferencedContainer = "container:domFaceSound.xcodeproj">
+            BuildableName = "DomFaceSound.app"
+            BlueprintName = "DomFaceSound"
+            ReferencedContainer = "container:DomFaceSound.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -70,9 +70,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-            BuildableName = "domFaceSound.app"
-            BlueprintName = "domFaceSound"
-            ReferencedContainer = "container:domFaceSound.xcodeproj">
+            BuildableName = "DomFaceSound.app"
+            BlueprintName = "DomFaceSound"
+            ReferencedContainer = "container:DomFaceSound.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
